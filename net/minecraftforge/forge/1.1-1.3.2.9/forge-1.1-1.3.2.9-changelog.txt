@@ -1,0 +1,52 @@
+Changelog:
+
+Build 1.3.2.9
+	LexManos
+		Reworked ISpecialArmor to provide better functionality as requested by IC2 devs.
+		Armor can now be prioritized over other armor.
+		It can deal with damaging it's own itemstacks.
+		Also impkemented the ISpecialArmor.getArmorDisplay
+
+Build 1.3.2.8
+	LexManos: Lowered the amount of build log spam, and fixed the inject_version script for use on other systems.
+	LexManos: Fixed ITextureProvider support for items that have multiple colored overlays.
+	LexManos: Added Item.onLeftClickEntity hook. Used to intercept and cancel the 'attack' action within items.
+	LexManos: Implemented item.onBlockStartBreak call for creative single player.
+	LexManos: Implimented a new IShearable system. This allows mods to create both new shear-like items/blocks. As well as new Entities/Blocks that work with other mod's shear-like items.
+
+Build 1.3.2.7
+	LexManos: Missed a caluse, ISpecialArmor should work as intended now. And not destroy Armor instanatly.
+
+Build 1.3.2.6
+	LexManos
+		Implmented Sengir's IPickupHandler.
+		http://www.mod-buildcraft.com/forums/topic/hook-intercept-item-pickups-by-player-entities/?view=all
+
+Build 1.3.2.5
+	LexManos
+		Merged in the change to ISpecialArmor to introduce the DamageSource argument.
+		As well as the concept of damage absorption vs reduction.
+
+Build 1.3.2.4
+	LexManos
+		Created a Entity tracking ans spawning system.
+		Mod creators should call MinecraftForge.registerEntity to register a entity.
+		All entity ID numbers are Mod Unique. Meaning two mods can have Entity #1.
+		Added client and server side packet handlers for the 'Forge' channel. For use in internal packets such as the new Spawn packet.
+		Updated the build scripts to copy over unique server source files now that there actually are some.
+		For modders:
+		  If you have a entity that used MLMP's 'owner' system, you should have your entity implement IThrowableEntity
+		  If you have a entity that implments MLMLP's ISpawnable, you should implement ISpawnHandler.
+		They provide the same functionality, just in a cleaner, more orginized way and will be the method used when we eventually drop MLMP.
+
+Build 1.3.2.3
+	LexManos: Fixed return value for un/registerChannel. Now returns properly indicate when un/register commands should be sent.
+
+Build 1.3.2.2
+	LexManos
+		Setup .gitignore for eclipse bin dirs.
+		Fixed line endings in install.sh
+		Added mod_MinecraftForge for simpler logging of minecraft version in crash reports
+		Added new hooks for connection events, See IConnectionHandler for more details.
+		Added Packet250CustomPayload handeling and channel registraction management, see MessageManager and IPacketHandler for more details.
+		Forge now uses unsed fields in C->S Packet1Login to identify itself. None Forge clients will get a graceful disconnect message instead of the 'Unknown packet 230'
