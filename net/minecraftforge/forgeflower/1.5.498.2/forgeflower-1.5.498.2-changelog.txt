@@ -1,0 +1,384 @@
+Build: 1.5.498.2 - Sun Apr 04 04:03:32 GMT 2021
+	github:
+		Fix jgit branch calculation (#92)
+
+=========
+Build: 1.5.498.1-ab3565d50e8e8e293a0977878f0b825b828583ae - Sat Apr 03 20:11:52 GMT 2021
+	github:
+		Rebase onto latest upstream, Fixes package-info/module-info decompile. (#90)
+
+	lexmanos:
+		Move to JGit instead of jcenter/grgit. As jcenter is shutting down.
+
+=========
+Build: 1.5.478.19 - Wed Feb 17 03:02:19 GMT 2021
+	github:
+		Move to Gradle 6.8.1 and use java toolchains (#87)
+
+=========
+Build: 1.5.478.18 - Tue Nov 24 17:43:39 GMT 2020
+	jdlogic:
+		Simplify switch on enum during method processing
+
+	jdlogic:
+		Fix resources being declared in the wrong order
+
+=========
+Build: 1.5.478.16 - Wed Aug 05 01:34:59 GMT 2020
+	jdlogic:
+		Add switch on string support
+
+=========
+Build: 1.5.478.15 - Wed Jun 24 17:33:50 GMT 2020
+	github:
+		Fix a few cases where effectively final var definitions where not kept (#82)
+
+=========
+Build: 1.5.478.14 - Sat Jun 20 01:26:10 GMT 2020
+	github:
+		Fix some cases where an enhanced for loop failed to generate and re-enable do-while loops (#38)
+
+=========
+Build: 1.5.478.13 - Fri Jun 19 16:56:06 GMT 2020
+	github:
+		Make decomp threaded (#63)
+		
+		`-thr <number>` anything < 1 is treaded as single threaded.
+		`-thr AUTO` to auto select, (default)
+
+=========
+Build: 1.5.478.12 - Fri Jun 19 16:43:18 GMT 2020
+	github:
+		Update patches for new GItPatcher (#81)
+		
+		Significantly cleans up redundant and continually changing data inside the patches.
+		Also fixes a few cases where commits had really long names.
+
+=========
+Build: 1.5.478.11 - Wed Jun 17 23:59:57 GMT 2020
+	lexmanos:
+		Fix some issues with primitive unboxing. Closes #69 Closes #74
+
+=========
+Build: 1.5.478.10 - Wed Jun 17 18:17:02 GMT 2020
+	lexmanos:
+		Remove var name refresh call. Fixes #88
+		Add toString to MethodDescriptor
+
+=========
+Build: 1.5.478.9 - Tue Jun 16 22:47:11 GMT 2020
+	lexmanos:
+		Fix variable LVTs not propagating properly after LVs are merged. Closes #79
+
+=========
+Build: 1.5.478.8 - Tue Jun 16 07:08:14 GMT 2020
+	lexmanos:
+		Fix static field initializers not inlining properly, and not qualifying when they should. Closes #77
+
+=========
+Build: 1.5.478.7 - Tue Jun 16 05:46:42 GMT 2020
+	lexmanos:
+		Fix improper local variable merging. Closes #75
+
+=========
+Build: 1.5.478.6 - Sat Jun 13 22:43:39 GMT 2020
+	github:
+		Proper wrapping for a casted method reference instance (#71)
+
+=========
+Build: 1.5.478.5 - Sat Jun 13 01:47:04 GMT 2020
+	github:
+		Properly detect short names shadowed in inner classes (#68)
+		
+		Also, add wrapping for a casted method reference instance
+
+=========
+Build: 1.5.478.4 - Thu Jun 11 17:31:18 GMT 2020
+	github:
+		Fix return inlining. (#66)
+
+=========
+Build: 1.5.478.3 - Wed Jun 10 18:27:25 GMT 2020
+	lexmanos:
+		Fix incorrect local variable merging, fixes compile error in AreaEffectCloudEntity.
+		Update gradle wrapper in our initial setup commit.
+		Add new -only command line argument to filter the list of classes to be decompiled.
+
+=========
+Build: 1.5.478.2 - Tue Jun 09 22:56:51 GMT 2020
+	github:
+		Various generic fixes (#61)
+
+=========
+Build: 1.5.478.1 - Tue Jun 09 19:46:37 GMT 2020
+	github:
+		Fix some catch blocks not getting JAD names. (#64)
+
+=========
+Build: 1.5.478.0 - Sun Jun 07 19:00:15 GMT 2020
+	covers1624:
+		Rebase on top of upstream FernFlower
+		
+		Empty blocks no longer have semicolons, Minor import fixes, Dropped 3 commits as the changes exist upstream now.
+
+=========
+Build: 1.5.380.47 - Sat Jun 06 17:51:57 GMT 2020
+	github:
+		Fix another overflow in isMappingInBounds (#58)
+
+	github:
+		Verify the contents of lambdas used in static initializers (#57)
+
+=========
+Build: 1.5.380.45 - Fri Jun 05 00:27:33 GMT 2020
+	lexmanos:
+		Fix some decompile exceptions for 1.16-pre1.
+
+=========
+Build: 1.5.380.44 - Wed Apr 15 03:26:54 GMT 2020
+	lexmanos:
+		Added config option to disable inlining of simple lambdas
+		--isl=0
+
+=========
+Build: 1.5.380.43 - Wed Apr 15 02:30:27 GMT 2020
+	lexmanos:
+		Update gradle wrapper to 6.3
+
+	lexmanos:
+		Add explicit cast to invocations of java/nio/Buffer functions. Java 9+ added overrides to these functions to return the specific subclass, however, when there is a compiler "bug" that when targeting release * or below, it will still reference these new methods, causing exceptions at runtime on Java 8.
+
+=========
+Build: 1.5.380.41 - Sun Mar 29 02:38:58 GMT 2020
+	github:
+		Simple lambda syntax support (#55)
+
+=========
+Build: 1.5.380.40 - Wed Jan 22 17:21:13 GMT 2020
+	lexmanos:
+		Fix finally processor instruction comparison (#54)
+
+=========
+Build: 1.5.380.39 - Tue Dec 17 02:32:53 GMT 2019
+	lexmanos:
+		Fix outputting of empty constructors that change access levels. Closes #53
+
+=========
+Build: 1.5.380.38 - Mon Oct 14 17:31:02 GMT 2019
+	lexmanos:
+		Improve stack vars processor output (#51)
+		* fix method reference instance object not collapsing
+		* keep effectively final var definitions for anon classes
+		* rerun stack var processor during statement processing
+
+=========
+Build: 1.5.380.37 - Fri Oct 04 20:53:42 GMT 2019
+	lexmanos:
+		Update Jenkinsfile to notify discord.
+
+=========
+Build: 1.5.380.36 - Fri Oct 04 20:46:12 GMT 2019
+	lexmanos:
+		Fix array index issue in ambiguous method detection for methods with
+		synthetically added parameters. This just fixes the crash, but doesn't
+		address it correctly, we need to know which method parameters are
+		synthetic.
+
+=========
+Build: 1.5.380.35 - Fri Oct 04 07:47:56 GMT 2019
+	lexmanos:
+		Fix NPE in StructClass.getMethodRecursive when parent classes are not
+		found.
+
+=========
+Build: 1.5.380.34 - Fri Jun 14 19:46:28 GMT 2019
+	lexmanos:
+		Check method access when looking for ambiguous method calls (#49)
+		* Log info about the running JVM for debugging
+		
+		* Check method access when looking for ambiguous method calls
+		discrepancy with Eclipse OpenJ9 JVM
+
+=========
+Build: 1.5.380.33 - Mon Jun 03 23:32:56 GMT 2019
+	lexmanos:
+		Fix a discrepancy when using J9+ (#47)
+		An error in the mapping of generic types cause the mapping to differ
+		between J8 and J9+.
+
+=========
+Build: 1.5.380.32 - Fri May 10 21:34:21 GMT 2019
+	lexmanos:
+		Update hideEmptySuper to better handle synthetic parameters (#45)
+
+=========
+Build: 1.5.380.31 - Wed May 08 19:35:30 GMT 2019
+	lexmanos:
+		Propagate exceptions all the way out to cause error code when using
+		console compiler.
+
+=========
+Build: 1.5.380.30 - Wed May 01 01:24:11 GMT 2019
+	lexmanos:
+		Fix NPE in enhanced for loop detection.
+
+=========
+Build: 1.5.380.29 - Tue Apr 30 20:07:50 GMT 2019
+	lexmanos:
+		Remove synthetic getClass calls (#44)
+
+	lexmanos:
+		Fix some static initializers not being inlined (#43)
+
+	github:
+		Attempt to get full commit message instead of just the title.
+
+	lexmanos:
+		Add getChanges(build) function for easy access to a formated changeset
+		for the target build.
+
+	lexmanos:
+		Only break out when we have found changes.
+
+	lexmanos:
+		Fix issues with try-with-resource generation and add test cases (#42)
+		- Fixes a case where twr would fail to generate
+		- Fixes local var renames not being applied to resource statements
+		- Fixes a case where a catch block could be merged onto the wrong try
+		block
+
+=========
+Build: 1.5.380.26 - Wed Jan 30 17:54:14 GMT 2019
+	lexmanos:
+		Fix some field initializers not being extracted or incorrectly extracted
+		(#39)
+
+=========
+Build: 1.5.380.25 - Wed Jan 30 17:24:50 GMT 2019
+	github:
+		Only use build numbers when no version is specified.
+
+	github:
+		Prevent recursion, and filter builds with no changes.
+
+	github:
+		Missing =
+
+	lexmanos:
+		Improve inferred generic types (#36)
+
+=========
+Build: 1.5.380.24 - Sun Oct 28 20:50:04 GMT 2018
+	lexmanos:
+		Publish sources jar (#40)
+
+=========
+Build: 1.5.380.23 - Sun Sep 30 22:00:30 GMT 2018
+	lexmanos:
+		 Convert references to -Double.MAX_VALUE and similar (#37)
+		* Fix both Fix-ambiguous-lambdas and
+		Fix-super-qualifier-for-default-interfaces having the same number
+		
+		* Convert references to -Double.MAX_VALUE and similar
+
+=========
+Build: 1.5.380.22 - Fri Sep 21 17:51:38 GMT 2018
+	lexmanos:
+		Fix ambiguous lambdas (#35)
+
+=========
+Build: 1.5.380.21 - Fri Sep 21 17:50:53 GMT 2018
+	lexmanos:
+		Fix super qualifier for default interfaces (#34)
+
+=========
+Build: 1.5.380.20 - Wed Sep 12 10:48:59 GMT 2018
+	lexmanos:
+		Prioritize self and enclosing class when encountering inconsistent
+		InnerClass attributes. The compiler encodes all REFERENCED inner classes
+		into the class. The first found used to win, but now ThisClass >
+		EnclosingClass > Others AccessTransformers only edit the targeted class
+		as it can't find all references, so Fixes AccessTransformers.
+
+=========
+Build: 1.5.380.19 - Sun Aug 19 07:49:58 GMT 2018
+	lexmanos:
+		Fix lambdas adding imports. Closes #26
+
+=========
+Build: 1.5.380.18 - Sun Aug 19 06:40:10 GMT 2018
+	malte0811:
+		Fix incorrect decompilation of inverted floating point comparisons with
+		NaN
+
+	malte0811:
+		Simplify negation on int comparisons
+
+=========
+Build: 1.5.380.14 - Fri Aug 17 17:47:35 GMT 2018
+	lexmanos:
+		Add try with resource support (#21)
+
+=========
+Build: 1.5.380.13 - Sat Aug 11 04:14:50 GMT 2018
+	lexmanos:
+		Fix enhanced for loops with break after and bad infinite loops (#25)
+
+=========
+Build: 1.5.380.12 - Mon Aug 06 19:09:11 GMT 2018
+	lexmanos:
+		Give nicer output for float and double literals (#24)
+
+=========
+Build: 1.5.380.11 - Fri Aug 03 19:37:37 GMT 2018
+	lexmanos:
+		Throw an exception instead of using System.exit (#22)
+
+=========
+Build: 1.5.380.10 - Sat Jul 28 01:25:25 GMT 2018
+	lexmanos:
+		Fix LVTs in lambdas / anon classes not propagating from outer lambda.
+		Closes #7 (#19)
+
+=========
+Build: 1.5.380.10 - Sat Jul 28 01:25:13 GMT 2018
+	lexmanos:
+		Fix shortname imports that are shadowed by super class inner classes.
+		Closes #10 (#18)
+
+=========
+Build: 1.5.380.8 - Fri Jul 27 02:06:13 GMT 2018
+	lexmanos:
+		Fix the rest of the cases where getClass removal does not work (#15)
+
+=========
+Build: 1.5.380.7 - Thu Jul 26 06:47:50 GMT 2018
+	lexmanos:
+		Fix getClass removal not working for some lambdas (#13)
+
+=========
+Build: 1.5.380.6 - Tue Jul 24 01:47:56 GMT 2018
+	xander:
+		fix interface inlining for non independents
+
+	xander:
+		squash
+
+=========
+Build: 1.5.380.3 - Fri Jul 20 09:40:40 GMT 2018
+	lexmanos:
+		Add a metadata file named 'fernflower_abstract_parameter_names.txt' to
+		rename abstract parameters. Format:   ClassName MethodName Descriptor
+		Param1[ Param2...]
+
+=========
+Build: 1.5.380.2 - Fri Jul 20 06:00:25 GMT 2018
+	lexmanos:
+		Add support for output being a file if input is also a single file. And
+		fix version in changelog.
+
+=========
+Build: unspecified - Thu Jul 19 23:39:33 GMT 2018
+	lexmanos:
+		Add -cfg argument to specify a text file with additional command line
+		arguments.

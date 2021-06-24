@@ -1,0 +1,8 @@
+Build: 1.0.1 - Mon Sep 09 18:53:28 GMT 2019
+	lex:
+		Add Discord Jenkins notification.
+
+=========
+Build: 1.0.1 - Mon Sep 09 18:52:17 GMT 2019
+	lex:
+		Add Discord Jenkins notification.

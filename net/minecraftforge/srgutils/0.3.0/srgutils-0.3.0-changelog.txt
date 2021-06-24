@@ -1,0 +1,84 @@
+Build: 0.3.0 - Mon Jan 25 19:48:10 GMT 2021
+	lexmanos:
+		Support for Named mapping files that have multiple targets in one file.
+		Support for Tiny v1 and v2.0
+
+=========
+Build: 0.2.13 - Mon Jan 18 20:29:03 GMT 2021
+	lexmanos:
+		Update gradle wrapper to 6.8
+		Update license headers
+		Update version list test, and fix exposed sorting issues.
+		Create directory before writing MappingFiles.
+
+=========
+Build: 0.2.12 - Thu Jun 18 18:13:18 GMT 2020
+	lexmanos:
+		Support all known version strings from the launcher's version manifest, and fix some sorting edge cases.
+
+	lexmanos:
+		Add -rc support.
+
+=========
+Build: 0.2.10 - Thu Apr 02 01:00:06 GMT 2020
+	lexmanos:
+		Fix snapshot sorting vs target that it's its full version.
+
+=========
+Build: 0.2.9 - Wed Apr 01 23:44:18 GMT 2020
+	lexmanos:
+		Add 2020 April Fools versions
+
+=========
+Build: 0.2.8 - Sun Mar 08 04:08:43 GMT 2020
+	github:
+		Add 1.16 snapshot versions.
+
+=========
+Build: 0.2.7 - Thu Oct 31 03:01:55 GMT 2019
+	lexmanos:
+		Fixed casing issue in 2019's April Fools version.
+
+=========
+Build: 0.2.6 - Thu Oct 31 02:59:07 GMT 2019
+	lexmanos:
+		Add support for more version formation, alpha/beta versions, and a few
+		April fools day.
+
+=========
+Build: 0.2.5 - Thu Oct 31 00:41:31 GMT 2019
+	lexmanos:
+		Add another pre-release name format.
+
+=========
+Build: 0.2.4 - Wed Oct 02 23:32:41 GMT 2019
+	lexmanos:
+		Add MinecraftVersion comparison class. It's lightweight, and I use it in
+		a ton of projects, so it'd be nice to have here, and I don't want to
+		make yet another random jar project.
+
+=========
+Build: 0.2.3 - Tue Sep 24 20:12:15 GMT 2019
+	lexmanos:
+		Fix reverse() and chain(), as well as increase performance of loading
+		TSRG files.
+
+=========
+Build: 0.2.2 - Tue Sep 24 18:08:38 GMT 2019
+	lexmanos:
+		Fix invalid return from MappingFile.addClasss
+
+=========
+Build: 0.2.1 - Tue Sep 24 17:42:26 GMT 2019
+	lexmanos:
+		Add Sources jar.
+
+=========
+Build: 0.2.0 - Wed Sep 11 23:48:15 GMT 2019
+	lexmanos:
+		Add reverse, renaming, and chaining functionality.
+
+=========
+Build: 0.1.1 - Wed Sep 11 22:47:07 GMT 2019
+	lexmanos:
+		Make gradlew executable.

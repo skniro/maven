@@ -1,0 +1,26 @@
+Build: 1.0.342.7 - Mon Feb 24 05:36:51 GMT 2020
+	lex:
+		Fix decompiled inner-class access levels when using access transformers
+
+	lex:
+		Update gradle.
+
+=========
+Build: 1.0.342.5 - Fri Sep 13 02:16:42 GMT 2019
+	lex:
+		Fix NPE due to load order.
+
+=========
+Build: 1.0.342.4 - Fri Sep 13 01:33:30 GMT 2019
+	lex:
+		Cherry pick abstract parameter namer.
+
+=========
+Build: 1.0.342.3 - Fri Sep 13 00:05:49 GMT 2019
+	lex:
+		Add output as zip file support
+
+=========
+Build: 1.0.342.2 - Thu Sep 12 23:22:25 GMT 2019
+	lex:
+		Force submodule clone on jenkins.

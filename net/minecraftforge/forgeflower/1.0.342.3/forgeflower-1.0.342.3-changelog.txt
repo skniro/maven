@@ -1,0 +1,8 @@
+Build: 1.0.342.3 - Fri Sep 13 00:05:49 GMT 2019
+	lex:
+		Add output as zip file support
+
+=========
+Build: 1.0.342.2 - Thu Sep 12 23:22:25 GMT 2019
+	lex:
+		Force submodule clone on jenkins.

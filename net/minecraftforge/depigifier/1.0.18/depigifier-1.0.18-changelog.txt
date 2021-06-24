@@ -1,0 +1,72 @@
+Build: 1.0.18 - Wed May 12 23:32:00 GMT 2021
+	sciwhiz12:
+		Update to Gradle 7.0.1
+
+	sciwhiz12:
+		Update buildscript to new Forge maven location
+
+	sciwhiz12:
+		Update Jenkinsfile
+		
+		Based off of ForgeGradle's Jenkinsfile
+
+	sciwhiz12:
+		Update to SLF4J 1.7.30
+		
+		Somehow, 1.7.28 is failing to download for me, so to mitigate this permanently, SLF4J is now updated to the current latest of 1.7.30.
+
+	sciwhiz12:
+		Update ASM to 9.1
+		
+		Adds support for Java 16 (ASM 9.0) and Java 17
+
+	sciwhiz12:
+		Update to SrgUtils 0.4.3
+
+	sciwhiz12:
+		Update buildscript plugins to latest versions
+		
+		Licenser plugin changed from `net.minecrell` to `org.cadixdev`.
+
+	sciwhiz12:
+		Remove buildscript repositories block
+		
+		All present plugins are either core Gradle plugins, or present on the
+		Gradle plugin portal (which is always added as a plugin repository).
+
+	sciwhiz12:
+		Call publication create method instead of relying on DSL
+		
+		Removes warnings caused by the IDE not recognizing the syntax properly.
+
+	sciwhiz12:
+		Use java software component instead of manual artifact declarations
+
+	sciwhiz12:
+		Remove build task dependency on shadowJar
+
+	sciwhiz12:
+		Remove jcenter, fix missed Forge Maven url
+
+	sciwhiz12:
+		Replace source/targetCompatibility with java toolchains
+
+=========
+Build: 1.0.4 - Tue Nov 26 01:11:29 GMT 2019
+	lexmanos:
+		Use SRGUtils for loading PG File.
+
+=========
+Build: 1.0.3 - Mon Oct 28 19:29:34 GMT 2019
+	jrd2558:
+		Fix crash when stripping whole line comments
+
+=========
+Build: 1.0.1 - Mon Sep 09 18:53:28 GMT 2019
+	lexmanos:
+		Add Discord Jenkins notification.
+
+=========
+Build: 1.0.1 - Mon Sep 09 18:52:17 GMT 2019
+	lexmanos:
+		Add Discord Jenkins notification.

@@ -1,0 +1,48 @@
+Build: 37 - 1.5.380.20 - Wed Sep 12 10:48:59 GMT 2018
+	lex: Prioritize self and enclosing class when encountering inconsistent
+=====
+Build: 36 - 1.5.380.19 - Sun Aug 19 07:49:58 GMT 2018
+	lex: Fix lambdas adding imports. Closes #26
+=====
+Build: 35 - 1.5.380.18 - Sun Aug 19 06:40:10 GMT 2018
+	malte0811: Fix incorrect decompilation of inverted floating point comparisons with
+	malte0811: Simplify negation on int comparisons
+=====
+Build: 34 - 1.5.380.14 - Fri Aug 17 17:47:35 GMT 2018
+	lex: Add try with resource support (#21)
+=====
+Build: 33 - 1.5.380.13 - Sat Aug 11 04:14:50 GMT 2018
+	lex: Fix enhanced for loops with break after and bad infinite loops (#25)
+=====
+Build: 32 - 1.5.380.12 - Mon Aug 06 19:09:11 GMT 2018
+	lex: Give nicer output for float and double literals (#24)
+=====
+Build: 31 - 1.5.380.11 - Fri Aug 03 19:37:37 GMT 2018
+	lex: Throw an exception instead of using System.exit (#22)
+=====
+Build: 30 - 1.5.380.10 - Sat Jul 28 01:25:25 GMT 2018
+	lex: Fix LVTs in lambdas / anon classes not propagating from outer lambda.
+=====
+Build: 29 - 1.5.380.10 - Sat Jul 28 01:25:13 GMT 2018
+	lex: Fix shortname imports that are shadowed by super class inner classes.
+=====
+Build: 28 - 1.5.380.8 - Fri Jul 27 02:06:13 GMT 2018
+	lex: Fix the rest of the cases where getClass removal does not work (#15)
+=====
+Build: 27 - 1.5.380.7 - Thu Jul 26 06:47:50 GMT 2018
+	lex: Fix getClass removal not working for some lambdas (#13)
+=====
+Build: 26 - 1.5.380.6 - Tue Jul 24 01:47:56 GMT 2018
+	xander: fix interface inlining for non independents
+	xander: squash
+=====
+Build: 25 - 1.5.380.3 - Fri Jul 20 09:40:40 GMT 2018
+	lex: Add a metadata file named 'fernflower_abstract_parameter_names.txt' to
+=====
+Build: 24 - 1.5.380.2 - Fri Jul 20 06:00:25 GMT 2018
+	lex: Add support for output being a file if input is also a single file. And
+=====
+Build: 23 - unspecified - Thu Jul 19 23:39:33 GMT 2018
+	lex: Add -cfg argument to specify a text file with additional command line
+=====
+Build: 22 - unspecified - Thu Jul 19 23:25:39 GMT 2018
