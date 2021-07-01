@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from files.minecraftforge.net/maven/net/minecraftforge/fml/index_13w05b.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 30 Sep 2020 09:00:19 GMT -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#2E4460">
+    <meta property="og:title" content="Minecraft Forge Mod Loader"/>
+    <meta property="og:url" content="/maven/net/minecraftforge/fml/"/>
+    <meta property="og:description" content="Minecraft Forge Mod Loader"/>
+    <title>Minecraft Forge Mod Loader</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="../../../manage/static/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="../../../manage/static/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="../../../manage/static/images/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="https://files.minecraftforge.net/maven/manage/static/images/manifest.json">
+    <link rel="mask-icon" href="https://files.minecraftforge.net/maven/manage/static/images/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="https://files.minecraftforge.net/maven/manage/static/images/favicon.ico">
+    <meta name="apple-mobile-web-app-title" content="Forge Files">
+    <meta name="application-name" content="Forge Files">
+    <meta name="msapplication-config" content="https://files.minecraftforge.net/maven/manage/static/images/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+    <link type="text/css" rel="stylesheet" href="../../../manage/static/css/tooltipster.css">
+    <link type="text/css" rel="stylesheet" href="../../../manage/static/css/tooltipster-shadow.css">
+    <link type="text/css" rel="stylesheet" data-theme="light" href="../../../manage/static/css/styles_light2e72.css?1549738260.16">
+    <link type="text/css" rel="stylesheet" data-theme="dark" href="../../../manage/static/css/styles_dark2e72.css?1549738260.16">
+    <script type="text/javascript" src="../../../manage/static/js/theme-switch2e72.js?1549738260.16"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+        <script>
+          window.factorem = {};
+          window.factorem.slotSizes =  [
+           [[728, 90]],
+           [[300, 250], [300, 600]],
+           [[300,250]],
+           [[728, 90]],
+           [[728, 90]],
+           [[300,250]],
+           [[160,600]],
+           [[160,600]],
+          ];
+          var script = document.createElement('script');
+          var tstamp = new Date();
+          script.id = 'factorem';
+          script.src = '../../../../../cdm.cursecdn.com/js/minecraftforge/cdmfactorem_min9a23.js?sec=home&amp;misc=' + tstamp.getTime();
+          script.async = false;
+          script.type='text/javascript';
+          document.head.appendChild(script);
+        </script>
+<header>
+    <div class="wrapper">
+        <div class="logo"><a href="#" class="open-sidebar"><i class="fa fa-bars"></i></a>
+            <a href="https://files.minecraftforge.net/" class="logo-image" title="Forge Files"><img src="https://files.minecraftforge.net/maven/manage/static/images/logo.svg" width="200"></a>
+        </div>
+        <nav>
+            <ul class="links clearfix">
+                <li><a href="http://minecraftforge.net/">Forums</a></li>
+                <li><a href="https://files.minecraftforge.net/">Files</a></li>
+                <li><a href="http://mcforge.readthedocs.io/">Documentation</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<main class="wrapper sidebar-wrapper">
+    <div class="sidebar-left sidebar-sticky">
+        <aside>
+                <section class="sidebar-nav">
+                    <h2><a href="#" class="close-sidebar"><i class="fa fa-bars" aria-hidden="true"></i></a> Minecraft Version</h2>
+                    <ul class="section-content scroll-pane">
+                                <li class="li-version-list">
+                                    <a href="#" class="elem-text toggle-collapsible">
+                                        <span class="fa fa-plus collapsible-icon" aria-hidden="true"></span> 13w09c.
+                                    </a>
+                                    <ul class="nav-collapsible ">
+                                                    <li>
+                                                        <a href="index_13w09c.html">13w09c</a>
+                                                    </li>
+                                    </ul>
+                                </li>
+                                <li class="li-version-list">
+                                    <a href="#" class="elem-text toggle-collapsible">
+                                        <span class="fa fa-plus collapsible-icon" aria-hidden="true"></span> 13w05b.
+                                    </a>
+                                    <ul class="nav-collapsible nav-collapsible-open">
+                                                    <li class="elem-active">13w05b</li>
+                                    </ul>
+                                </li>
+                                <li class="li-version-list">
+                                    <a href="#" class="elem-text toggle-collapsible">
+                                        <span class="fa fa-plus collapsible-icon" aria-hidden="true"></span> 13w02b.
+                                    </a>
+                                    <ul class="nav-collapsible ">
+                                                    <li>
+                                                        <a href="index_13w02b.html">13w02b</a>
+                                                    </li>
+                                    </ul>
+                                </li>
+                                <li class="li-version-list">
+                                    <a href="#" class="elem-text toggle-collapsible">
+                                        <span class="fa fa-plus collapsible-icon" aria-hidden="true"></span> 1.8
+                                    </a>
+                                    <ul class="nav-collapsible ">
+                                                    <li>
+                                                        <a href="index_1.8.html">1.8</a>
+                                                    </li>
+                                    </ul>
+                                </li>
+                                <li class="li-version-list">
+                                    <a href="#" class="elem-text toggle-collapsible">
+                                        <span class="fa fa-plus collapsible-icon" aria-hidden="true"></span> 1.7
+                                    </a>
+                                    <ul class="nav-collapsible ">
+                                                    <li>
+                                                        <a href="index_1.7.10.html">1.7.10</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="index_1.7.10_pre4.html">1.7.10_pre4</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="index_1.7.2.html">1.7.2</a>
+                                                    </li>
+                                    </ul>
+                                </li>
+                                <li class="li-version-list">
+                                    <a href="#" class="elem-text toggle-collapsible">
+                                        <span class="fa fa-plus collapsible-icon" aria-hidden="true"></span> 1.6
+                                    </a>
+                                    <ul class="nav-collapsible ">
+                                                    <li>
+                                                        <a href="index_1.6.4.html">1.6.4</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="index_1.6.3.html">1.6.3</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="index_1.6.2.html">1.6.2</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="index_1.6.1.html">1.6.1</a>
+                                                    </li>
+                                    </ul>
+                                </li>
+                                <li class="li-version-list">
+                                    <a href="#" class="elem-text toggle-collapsible">
+                                        <span class="fa fa-plus collapsible-icon" aria-hidden="true"></span> 1.5
+                                    </a>
+                                    <ul class="nav-collapsible ">
+                                                    <li>
+                                                        <a href="index_1.5.2.html">1.5.2</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="index_1.5.1.html">1.5.1</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="index_1.5.html">1.5</a>
+                                                    </li>
+                                    </ul>
+                                </li>
+                                <li class="li-version-list">
+                                    <a href="#" class="elem-text toggle-collapsible">
+                                        <span class="fa fa-plus collapsible-icon" aria-hidden="true"></span> 1.4
+                                    </a>
+                                    <ul class="nav-collapsible ">
+                                                    <li>
+                                                        <a href="index_1.4.7.html">1.4.7</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="index_1.4.6.html">1.4.6</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="index_1.4.5.html">1.4.5</a>
+                                                    </li>
+                                    </ul>
+                                </li>
+                    </ul>
+                </section>
+        </aside>
+    </div>
+
+    <div class="sidebar-sticky-wrapper-content">
+        <div class="promos-wrapper">
+                <div class="promo-container promo-container-framed promo-downloads-top">
+                    <div id='cdm-zone-01' class='promo-content'></div>
+                    <div class="block-note">
+                        <div class="block-note-icon"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></div>
+                        <div class="block-note-text">
+                            It appears that you're using an ad blocker. Ads are Forge's main source of income, so please
+                            consider adding an exception for this site.<br>
+                            If you'd like to support Forge while keeping ads blocked, please consider supporting
+                            <a href="https://www.patreon.com/LexManos" target="_blank">LexManos on Patreon</a>.
+                        </div>
+                    </div>
+                </div>
+            <div class="promos-content">
+                <h1>Downloads for Minecraft Forge Mod Loader - MC 13w05b</h1>
+                <div class="downloads">
+                            <div class="download">
+                                <div class="title">
+                                    <i class="fa promo-latest"></i>Download Latest<br>
+                                    <small>4.99.53.567<!-- built on 09/27/14 02:30 AM --></small>
+                                </div>
+                                <div class="links">
+                                            <div class="link">
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/13w05b-4.99.53.567-snapshot15/fml-13w05b-4.99.53.567-snapshot15-src.zip" title="Src">
+                                                    <i class="fa classifier-src"></i>
+                                                    <span class="promo-label">Src</span>
+                                                </a>
+                                            </div>
+                                            <div class="link">
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/13w05b-4.99.53.567-snapshot15/fml-13w05b-4.99.53.567-snapshot15-universal.zip" title="Universal">
+                                                    <i class="fa classifier-universal"></i>
+                                                    <span class="promo-label">Universal</span>
+                                                </a>
+                                            </div>
+                                </div>
+                            </div>
+                </div>
+            </div>
+        </div>
+        <div class="download-container">
+            <div class="download-disclaimer">
+                <h2>All Versions</h2>
+                <p>
+                    <strong>Note</strong> that the downloads in the list below are for getting a <em>specific</em>
+                    version of Forge.
+                    Unless you need this, prefer the links to latest and recommended builds above instead.
+                </p>
+            </div>
+            <a class="toggle-collapsible btn btn-large" href="#"><span class="fa fa-plus collapsible-icon"
+                                                                       aria-hidden="true"></span> <span
+                    class="collapsible-text">Show all Versions</span></a>
+            <div class="download-list-wrapper collapsible" data-show-text="Show all Versions"
+                 data-hide-text="Hide all Versions">
+                <table class="download-list">
+                    <thead>
+                    <tr>
+                        <th>Version</th>
+                        <th>Time</th>
+                        <th>Downloads</th>
+                    </tr>
+                    </thead>
+                    <thead class="mobile-only">
+                    <tr>
+                        <th>Downloads</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    
+                        <tr>
+                            <td class="download-version">
+                                4.99.53.567
+                                    <a class="info-link" data-toggle="popup" title="snapshot15">
+                                        <i class="fa fa-bug marker-branch" aria-hidden="true"></i>
+                                    </a>
+                                    <div class="info-tooltip">
+                                        <strong>Branch:</strong> snapshot15
+                                    </div>
+                            </td>
+                            <td class="download-time">09/27/14 02:30 AM</td>
+                            <td class="download-files">
+                                <ul class="download-links">
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/13w05b-4.99.53.567-snapshot15/fml-13w05b-4.99.53.567-snapshot15-src.zip">
+                                                    <i class="fa download-classifier classifier-src"></i> Src
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="13w05b-4.99.53.567-snapshot15/fml-13w05b-4.99.53.567-snapshot15-src.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> 4851b397e00e77951304273be911aaa7<br>
+                                                    <strong>SHA1:</strong> 304e2deb2ade87c59bcf476247b2e7222a5ede98
+                                                        <br><a href="13w05b-4.99.53.567-snapshot15/fml-13w05b-4.99.53.567-snapshot15-src.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/13w05b-4.99.53.567-snapshot15/fml-13w05b-4.99.53.567-snapshot15-universal.zip">
+                                                    <i class="fa download-classifier classifier-universal"></i> Universal
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="13w05b-4.99.53.567-snapshot15/fml-13w05b-4.99.53.567-snapshot15-universal.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> 318f14cb7bafb3e14231bdf7a9189541<br>
+                                                    <strong>SHA1:</strong> 05db9b9f18ac9320e0bcaaafce645f6cdedb4305
+                                                        <br><a href="13w05b-4.99.53.567-snapshot15/fml-13w05b-4.99.53.567-snapshot15-universal.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                </ul>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td class="download-version">
+                                4.99.52.566
+                                    <a class="info-link" data-toggle="popup" title="snapshot15">
+                                        <i class="fa fa-bug marker-branch" aria-hidden="true"></i>
+                                    </a>
+                                    <div class="info-tooltip">
+                                        <strong>Branch:</strong> snapshot15
+                                    </div>
+                            </td>
+                            <td class="download-time">09/27/14 02:30 AM</td>
+                            <td class="download-files">
+                                <ul class="download-links">
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/13w05b-4.99.52.566-snapshot15/fml-13w05b-4.99.52.566-snapshot15-src.zip">
+                                                    <i class="fa download-classifier classifier-src"></i> Src
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="13w05b-4.99.52.566-snapshot15/fml-13w05b-4.99.52.566-snapshot15-src.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> 7742d6147d9cb35b8d6f875d646a3da2<br>
+                                                    <strong>SHA1:</strong> 08846703bf1e47a8df2f408da62991fc13584c23
+                                                        <br><a href="13w05b-4.99.52.566-snapshot15/fml-13w05b-4.99.52.566-snapshot15-src.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/13w05b-4.99.52.566-snapshot15/fml-13w05b-4.99.52.566-snapshot15-universal.zip">
+                                                    <i class="fa download-classifier classifier-universal"></i> Universal
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="13w05b-4.99.52.566-snapshot15/fml-13w05b-4.99.52.566-snapshot15-universal.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> d5a9ebc5c949ded192bc7b9415922be3<br>
+                                                    <strong>SHA1:</strong> a9041256d2a9f6cfdd06b3c4d6655466ab92b275
+                                                        <br><a href="13w05b-4.99.52.566-snapshot15/fml-13w05b-4.99.52.566-snapshot15-universal.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                </ul>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td class="download-version">
+                                4.99.39.561
+                                    <a class="info-link" data-toggle="popup" title="snapshot15">
+                                        <i class="fa fa-bug marker-branch" aria-hidden="true"></i>
+                                    </a>
+                                    <div class="info-tooltip">
+                                        <strong>Branch:</strong> snapshot15
+                                    </div>
+                            </td>
+                            <td class="download-time">09/27/14 02:31 AM</td>
+                            <td class="download-files">
+                                <ul class="download-links">
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/13w05b-4.99.39.561-snapshot15/fml-13w05b-4.99.39.561-snapshot15-src.zip">
+                                                    <i class="fa download-classifier classifier-src"></i> Src
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="13w05b-4.99.39.561-snapshot15/fml-13w05b-4.99.39.561-snapshot15-src.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> 80828321556483dded4e17d3702ab9ff<br>
+                                                    <strong>SHA1:</strong> ef1d62a0532fb5c10f3ab3f7be3e34330bba54a8
+                                                        <br><a href="13w05b-4.99.39.561-snapshot15/fml-13w05b-4.99.39.561-snapshot15-src.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/13w05b-4.99.39.561-snapshot15/fml-13w05b-4.99.39.561-snapshot15-universal.zip">
+                                                    <i class="fa download-classifier classifier-universal"></i> Universal
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="13w05b-4.99.39.561-snapshot15/fml-13w05b-4.99.39.561-snapshot15-universal.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> d116516faa621656c194b274595c9ec2<br>
+                                                    <strong>SHA1:</strong> 44b685bd8ed113960dca65b925a3755c5d98f6f3
+                                                        <br><a href="13w05b-4.99.39.561-snapshot15/fml-13w05b-4.99.39.561-snapshot15-universal.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                </ul>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td class="download-version">
+                                4.99.35.558
+                                    <a class="info-link" data-toggle="popup" title="snapshot15">
+                                        <i class="fa fa-bug marker-branch" aria-hidden="true"></i>
+                                    </a>
+                                    <div class="info-tooltip">
+                                        <strong>Branch:</strong> snapshot15
+                                    </div>
+                            </td>
+                            <td class="download-time">09/27/14 02:31 AM</td>
+                            <td class="download-files">
+                                <ul class="download-links">
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/13w05b-4.99.35.558-snapshot15/fml-13w05b-4.99.35.558-snapshot15-src.zip">
+                                                    <i class="fa download-classifier classifier-src"></i> Src
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="13w05b-4.99.35.558-snapshot15/fml-13w05b-4.99.35.558-snapshot15-src.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> 399b596c454c4f73b2435e3b1090b80e<br>
+                                                    <strong>SHA1:</strong> 28b08c2490b285e525daae8bca716013da195036
+                                                        <br><a href="13w05b-4.99.35.558-snapshot15/fml-13w05b-4.99.35.558-snapshot15-src.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/13w05b-4.99.35.558-snapshot15/fml-13w05b-4.99.35.558-snapshot15-universal.zip">
+                                                    <i class="fa download-classifier classifier-universal"></i> Universal
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="13w05b-4.99.35.558-snapshot15/fml-13w05b-4.99.35.558-snapshot15-universal.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> e1b166714b2b0813a09fe85a672fcdb7<br>
+                                                    <strong>SHA1:</strong> 643e0b3759b88a6d0cd853affecfd3bc7c1c3ffa
+                                                        <br><a href="13w05b-4.99.35.558-snapshot15/fml-13w05b-4.99.35.558-snapshot15-universal.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                </ul>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td class="download-version">
+                                4.99.50.563
+                                    <a class="info-link" data-toggle="popup" title="snapshot15">
+                                        <i class="fa fa-bug marker-branch" aria-hidden="true"></i>
+                                    </a>
+                                    <div class="info-tooltip">
+                                        <strong>Branch:</strong> snapshot15
+                                    </div>
+                            </td>
+                            <td class="download-time">09/27/14 02:30 AM</td>
+                            <td class="download-files">
+                                <ul class="download-links">
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/13w05b-4.99.50.563-snapshot15/fml-13w05b-4.99.50.563-snapshot15-src.zip">
+                                                    <i class="fa download-classifier classifier-src"></i> Src
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="13w05b-4.99.50.563-snapshot15/fml-13w05b-4.99.50.563-snapshot15-src.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> 8055b3836cc736652a5ed4ae658620b8<br>
+                                                    <strong>SHA1:</strong> 7cb5e34dae9a9720df1e7c099e0f50e97d72503e
+                                                        <br><a href="13w05b-4.99.50.563-snapshot15/fml-13w05b-4.99.50.563-snapshot15-src.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/13w05b-4.99.50.563-snapshot15/fml-13w05b-4.99.50.563-snapshot15-universal.zip">
+                                                    <i class="fa download-classifier classifier-universal"></i> Universal
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="13w05b-4.99.50.563-snapshot15/fml-13w05b-4.99.50.563-snapshot15-universal.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> f064a2e4ae1a096621c782dc2c8eadde<br>
+                                                    <strong>SHA1:</strong> 177a39684b9d05593a03eeac1fd65587217a3720
+                                                        <br><a href="13w05b-4.99.50.563-snapshot15/fml-13w05b-4.99.50.563-snapshot15-universal.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                </ul>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td class="download-version">
+                                4.99.19.551
+                                    <a class="info-link" data-toggle="popup" title="snapshot15">
+                                        <i class="fa fa-bug marker-branch" aria-hidden="true"></i>
+                                    </a>
+                                    <div class="info-tooltip">
+                                        <strong>Branch:</strong> snapshot15
+                                    </div>
+                            </td>
+                            <td class="download-time">09/27/14 02:31 AM</td>
+                            <td class="download-files">
+                                <ul class="download-links">
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/13w05b-4.99.19.551-snapshot15/fml-13w05b-4.99.19.551-snapshot15-src.zip">
+                                                    <i class="fa download-classifier classifier-src"></i> Src
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="13w05b-4.99.19.551-snapshot15/fml-13w05b-4.99.19.551-snapshot15-src.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> 7e7e820781f4322de2c14aa80c1b7fea<br>
+                                                    <strong>SHA1:</strong> 54c94c5893009065598921c0b60c263b3282ac9c
+                                                        <br><a href="13w05b-4.99.19.551-snapshot15/fml-13w05b-4.99.19.551-snapshot15-src.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/13w05b-4.99.19.551-snapshot15/fml-13w05b-4.99.19.551-snapshot15-universal.zip">
+                                                    <i class="fa download-classifier classifier-universal"></i> Universal
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="13w05b-4.99.19.551-snapshot15/fml-13w05b-4.99.19.551-snapshot15-universal.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> f7a4d020a0baf86b57b86faec09499a6<br>
+                                                    <strong>SHA1:</strong> 3e47ba7502eb42dc5892566e019c549fc3a78084
+                                                        <br><a href="13w05b-4.99.19.551-snapshot15/fml-13w05b-4.99.19.551-snapshot15-universal.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                </ul>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td class="download-version">
+                                4.99.18.550
+                                    <a class="info-link" data-toggle="popup" title="snapshot15">
+                                        <i class="fa fa-bug marker-branch" aria-hidden="true"></i>
+                                    </a>
+                                    <div class="info-tooltip">
+                                        <strong>Branch:</strong> snapshot15
+                                    </div>
+                            </td>
+                            <td class="download-time">09/27/14 02:31 AM</td>
+                            <td class="download-files">
+                                <ul class="download-links">
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/13w05b-4.99.18.550-snapshot15/fml-13w05b-4.99.18.550-snapshot15-src.zip">
+                                                    <i class="fa download-classifier classifier-src"></i> Src
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="13w05b-4.99.18.550-snapshot15/fml-13w05b-4.99.18.550-snapshot15-src.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> 5dadd7f1e796412fcbc118846064a536<br>
+                                                    <strong>SHA1:</strong> 71da61fc57558cea209609c895d5ab004ab8ffdd
+                                                        <br><a href="13w05b-4.99.18.550-snapshot15/fml-13w05b-4.99.18.550-snapshot15-src.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/13w05b-4.99.18.550-snapshot15/fml-13w05b-4.99.18.550-snapshot15-universal.zip">
+                                                    <i class="fa download-classifier classifier-universal"></i> Universal
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="13w05b-4.99.18.550-snapshot15/fml-13w05b-4.99.18.550-snapshot15-universal.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> b59cf506203596d40f583f8c652ff02c<br>
+                                                    <strong>SHA1:</strong> 630aada1c7c850290ab50c699d0520368671ff1b
+                                                        <br><a href="13w05b-4.99.18.550-snapshot15/fml-13w05b-4.99.18.550-snapshot15-universal.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                </ul>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td class="download-version">
+                                4.99.36.559
+                                    <a class="info-link" data-toggle="popup" title="snapshot15">
+                                        <i class="fa fa-bug marker-branch" aria-hidden="true"></i>
+                                    </a>
+                                    <div class="info-tooltip">
+                                        <strong>Branch:</strong> snapshot15
+                                    </div>
+                            </td>
+                            <td class="download-time">09/27/14 02:31 AM</td>
+                            <td class="download-files">
+                                <ul class="download-links">
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/13w05b-4.99.36.559-snapshot15/fml-13w05b-4.99.36.559-snapshot15-src.zip">
+                                                    <i class="fa download-classifier classifier-src"></i> Src
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="13w05b-4.99.36.559-snapshot15/fml-13w05b-4.99.36.559-snapshot15-src.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> aab8fc5dd1d8b829feda34f299df9bf3<br>
+                                                    <strong>SHA1:</strong> 5e7db86f86056cd3b367345d2d79bf480904b3dc
+                                                        <br><a href="13w05b-4.99.36.559-snapshot15/fml-13w05b-4.99.36.559-snapshot15-src.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/13w05b-4.99.36.559-snapshot15/fml-13w05b-4.99.36.559-snapshot15-universal.zip">
+                                                    <i class="fa download-classifier classifier-universal"></i> Universal
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="13w05b-4.99.36.559-snapshot15/fml-13w05b-4.99.36.559-snapshot15-universal.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> fbe5838aeef7595571a77830c63f650d<br>
+                                                    <strong>SHA1:</strong> 4444026b04567f4443391705f6bd5e12bcdb0e1d
+                                                        <br><a href="13w05b-4.99.36.559-snapshot15/fml-13w05b-4.99.36.559-snapshot15-universal.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                </ul>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td class="download-version">
+                                4.99.37.560
+                                    <a class="info-link" data-toggle="popup" title="snapshot15">
+                                        <i class="fa fa-bug marker-branch" aria-hidden="true"></i>
+                                    </a>
+                                    <div class="info-tooltip">
+                                        <strong>Branch:</strong> snapshot15
+                                    </div>
+                            </td>
+                            <td class="download-time">09/27/14 02:31 AM</td>
+                            <td class="download-files">
+                                <ul class="download-links">
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/13w05b-4.99.37.560-snapshot15/fml-13w05b-4.99.37.560-snapshot15-src.zip">
+                                                    <i class="fa download-classifier classifier-src"></i> Src
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="13w05b-4.99.37.560-snapshot15/fml-13w05b-4.99.37.560-snapshot15-src.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> 9d57f6aa1c9aa3fb74b1ee1dc206dd1d<br>
+                                                    <strong>SHA1:</strong> 680cda94f2fd491228851f5ced44bc91ffe27d5d
+                                                        <br><a href="13w05b-4.99.37.560-snapshot15/fml-13w05b-4.99.37.560-snapshot15-src.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/13w05b-4.99.37.560-snapshot15/fml-13w05b-4.99.37.560-snapshot15-universal.zip">
+                                                    <i class="fa download-classifier classifier-universal"></i> Universal
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="13w05b-4.99.37.560-snapshot15/fml-13w05b-4.99.37.560-snapshot15-universal.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> 0e76f54539d2955c68a1a02a2b6de147<br>
+                                                    <strong>SHA1:</strong> ce149371abc5d1768b27c6ceb9aee301c20aac01
+                                                        <br><a href="13w05b-4.99.37.560-snapshot15/fml-13w05b-4.99.37.560-snapshot15-universal.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                </ul>
+                            </td>
+                        </tr>
+                    
+                    </tbody>
+                </table>
+            </div>
+                <div class="promo-container promo-container-framed promo-downloads-bottom">
+                    <div id='cdm-zone-05' class='promo-content'></div>
+                </div>
+        </div>
+    </div>
+        <aside class="sidebar-right">
+            <div class="promo-container promo-container-framed promo-downloads-right">
+                <div id='cdm-zone-02' class='promo-content'></div>
+            </div>
+        </aside>
+</main>
+<div class="wrapper">
+    <footer>
+        Copyright © 2018 by Forge Development LLC &middot; <a href="https://files.minecraftforge.net/maven/manage/static/privacy.html">Privacy Information</a> <br>
+        Layout is designed by and used with permission from PaleoCrafter
+        <div class="theme-switch-wrapper">
+            Enable Dark Theme
+            <label class="theme-switch">
+                <input type="checkbox">
+                <span class="slider round"></span>
+            </label>
+        </div>
+    </footer>
+</div>
+<script type="text/javascript" src="../../../../../ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../../use.fontawesome.com/a1f20be65b.js"></script>
+<script type="text/javascript" src="../../../../../cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"></script>
+<script type="text/javascript" src="../../../../../cdnjs.cloudflare.com/ajax/libs/jScrollPane/2.0.23/script/jquery.jscrollpane.min.js"></script>
+<script type="text/javascript" src="../../../../../cdnjs.cloudflare.com/ajax/libs/stickyfill/1.1.4/stickyfill.min.js"></script>
+<script type="text/javascript" src="../../../../../cdnjs.cloudflare.com/ajax/libs/tooltipster/3.3.0/js/jquery.tooltipster.min.js"></script>
+    <script type="text/javascript" src="../../../manage/static/js/merged-curse2e72.js?1549738260.16"></script>
+<script>  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','../../../../../www.google-analytics.com/analytics.js','ga');ga('create', 'UA-31111098-3', 'auto');ga('send', 'pageview');</script>
+        <div id='cdm-zone-end'></div>
+        <!-- Begin comScore -->
+        <script>
+          var _comscore = _comscore || [];
+          _comscore.push({ c1: "2", c2: "6035118" });
+          (function() {
+            var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+            s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+            el.parentNode.insertBefore(s, el);
+          })();
+        </script>
+        <!-- End comScore -->
+        <!-- Nielsen Online SiteCensus -->
+          <div><img src="http://secure-us.imrworldwide.com/cgi-bin/m?ci=us-603339h&amp;cg=0&amp;cc=1&amp;ts=noscript" width="1" height="1" alt="" /></div>
+        <!-- End Nielsen Online SiteCensus -->
+</body>
+
+<!-- Mirrored from files.minecraftforge.net/maven/net/minecraftforge/fml/index_13w05b.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 30 Sep 2020 09:00:19 GMT -->
+</html>

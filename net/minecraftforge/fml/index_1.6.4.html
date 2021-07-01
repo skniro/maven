@@ -1,0 +1,2211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from files.minecraftforge.net/maven/net/minecraftforge/fml/index_1.6.4.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 30 Sep 2020 09:00:20 GMT -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#2E4460">
+    <meta property="og:title" content="Minecraft Forge Mod Loader"/>
+    <meta property="og:url" content="/maven/net/minecraftforge/fml/"/>
+    <meta property="og:description" content="Minecraft Forge Mod Loader"/>
+    <title>Minecraft Forge Mod Loader</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="../../../manage/static/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="../../../manage/static/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="../../../manage/static/images/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="https://files.minecraftforge.net/maven/manage/static/images/manifest.json">
+    <link rel="mask-icon" href="https://files.minecraftforge.net/maven/manage/static/images/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="https://files.minecraftforge.net/maven/manage/static/images/favicon.ico">
+    <meta name="apple-mobile-web-app-title" content="Forge Files">
+    <meta name="application-name" content="Forge Files">
+    <meta name="msapplication-config" content="https://files.minecraftforge.net/maven/manage/static/images/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+    <link type="text/css" rel="stylesheet" href="../../../manage/static/css/tooltipster.css">
+    <link type="text/css" rel="stylesheet" href="../../../manage/static/css/tooltipster-shadow.css">
+    <link type="text/css" rel="stylesheet" data-theme="light" href="../../../manage/static/css/styles_light2e72.css?1549738260.16">
+    <link type="text/css" rel="stylesheet" data-theme="dark" href="../../../manage/static/css/styles_dark2e72.css?1549738260.16">
+    <script type="text/javascript" src="../../../manage/static/js/theme-switch2e72.js?1549738260.16"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+        <script>
+          window.factorem = {};
+          window.factorem.slotSizes =  [
+           [[728, 90]],
+           [[300, 250], [300, 600]],
+           [[300,250]],
+           [[728, 90]],
+           [[728, 90]],
+           [[300,250]],
+           [[160,600]],
+           [[160,600]],
+          ];
+          var script = document.createElement('script');
+          var tstamp = new Date();
+          script.id = 'factorem';
+          script.src = '../../../../../cdm.cursecdn.com/js/minecraftforge/cdmfactorem_min9a23.js?sec=home&amp;misc=' + tstamp.getTime();
+          script.async = false;
+          script.type='text/javascript';
+          document.head.appendChild(script);
+        </script>
+<header>
+    <div class="wrapper">
+        <div class="logo"><a href="#" class="open-sidebar"><i class="fa fa-bars"></i></a>
+            <a href="https://files.minecraftforge.net/" class="logo-image" title="Forge Files"><img src="https://files.minecraftforge.net/maven/manage/static/images/logo.svg" width="200"></a>
+        </div>
+        <nav>
+            <ul class="links clearfix">
+                <li><a href="http://minecraftforge.net/">Forums</a></li>
+                <li><a href="https://files.minecraftforge.net/">Files</a></li>
+                <li><a href="http://mcforge.readthedocs.io/">Documentation</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<main class="wrapper sidebar-wrapper">
+    <div class="sidebar-left sidebar-sticky">
+        <aside>
+                <section class="sidebar-nav">
+                    <h2><a href="#" class="close-sidebar"><i class="fa fa-bars" aria-hidden="true"></i></a> Minecraft Version</h2>
+                    <ul class="section-content scroll-pane">
+                                <li class="li-version-list">
+                                    <a href="#" class="elem-text toggle-collapsible">
+                                        <span class="fa fa-plus collapsible-icon" aria-hidden="true"></span> 13w09c.
+                                    </a>
+                                    <ul class="nav-collapsible ">
+                                                    <li>
+                                                        <a href="index_13w09c.html">13w09c</a>
+                                                    </li>
+                                    </ul>
+                                </li>
+                                <li class="li-version-list">
+                                    <a href="#" class="elem-text toggle-collapsible">
+                                        <span class="fa fa-plus collapsible-icon" aria-hidden="true"></span> 13w05b.
+                                    </a>
+                                    <ul class="nav-collapsible ">
+                                                    <li>
+                                                        <a href="index_13w05b.html">13w05b</a>
+                                                    </li>
+                                    </ul>
+                                </li>
+                                <li class="li-version-list">
+                                    <a href="#" class="elem-text toggle-collapsible">
+                                        <span class="fa fa-plus collapsible-icon" aria-hidden="true"></span> 13w02b.
+                                    </a>
+                                    <ul class="nav-collapsible ">
+                                                    <li>
+                                                        <a href="index_13w02b.html">13w02b</a>
+                                                    </li>
+                                    </ul>
+                                </li>
+                                <li class="li-version-list">
+                                    <a href="#" class="elem-text toggle-collapsible">
+                                        <span class="fa fa-plus collapsible-icon" aria-hidden="true"></span> 1.8
+                                    </a>
+                                    <ul class="nav-collapsible ">
+                                                    <li>
+                                                        <a href="index_1.8.html">1.8</a>
+                                                    </li>
+                                    </ul>
+                                </li>
+                                <li class="li-version-list">
+                                    <a href="#" class="elem-text toggle-collapsible">
+                                        <span class="fa fa-plus collapsible-icon" aria-hidden="true"></span> 1.7
+                                    </a>
+                                    <ul class="nav-collapsible ">
+                                                    <li>
+                                                        <a href="index_1.7.10.html">1.7.10</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="index_1.7.10_pre4.html">1.7.10_pre4</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="index_1.7.2.html">1.7.2</a>
+                                                    </li>
+                                    </ul>
+                                </li>
+                                <li class="li-version-list">
+                                    <a href="#" class="elem-text toggle-collapsible">
+                                        <span class="fa fa-plus collapsible-icon" aria-hidden="true"></span> 1.6
+                                    </a>
+                                    <ul class="nav-collapsible nav-collapsible-open">
+                                                    <li class="elem-active">1.6.4</li>
+                                                    <li>
+                                                        <a href="index_1.6.3.html">1.6.3</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="index_1.6.2.html">1.6.2</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="index_1.6.1.html">1.6.1</a>
+                                                    </li>
+                                    </ul>
+                                </li>
+                                <li class="li-version-list">
+                                    <a href="#" class="elem-text toggle-collapsible">
+                                        <span class="fa fa-plus collapsible-icon" aria-hidden="true"></span> 1.5
+                                    </a>
+                                    <ul class="nav-collapsible ">
+                                                    <li>
+                                                        <a href="index_1.5.2.html">1.5.2</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="index_1.5.1.html">1.5.1</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="index_1.5.html">1.5</a>
+                                                    </li>
+                                    </ul>
+                                </li>
+                                <li class="li-version-list">
+                                    <a href="#" class="elem-text toggle-collapsible">
+                                        <span class="fa fa-plus collapsible-icon" aria-hidden="true"></span> 1.4
+                                    </a>
+                                    <ul class="nav-collapsible ">
+                                                    <li>
+                                                        <a href="index_1.4.7.html">1.4.7</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="index_1.4.6.html">1.4.6</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="index_1.4.5.html">1.4.5</a>
+                                                    </li>
+                                    </ul>
+                                </li>
+                    </ul>
+                </section>
+        </aside>
+    </div>
+
+    <div class="sidebar-sticky-wrapper-content">
+        <div class="promos-wrapper">
+                <div class="promo-container promo-container-framed promo-downloads-top">
+                    <div id='cdm-zone-01' class='promo-content'></div>
+                    <div class="block-note">
+                        <div class="block-note-icon"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></div>
+                        <div class="block-note-text">
+                            It appears that you're using an ad blocker. Ads are Forge's main source of income, so please
+                            consider adding an exception for this site.<br>
+                            If you'd like to support Forge while keeping ads blocked, please consider supporting
+                            <a href="https://www.patreon.com/LexManos" target="_blank">LexManos on Patreon</a>.
+                        </div>
+                    </div>
+                </div>
+            <div class="promos-content">
+                <h1>Downloads for Minecraft Forge Mod Loader - MC 1.6.4</h1>
+                <div class="downloads">
+                                    <div class="download">
+                                        <div class="title">
+                                            <i class="fa promo-latest"></i>Download Latest<br>
+                                            <small>1.6.4 -
+                                                6.4.41.787<!-- built on 09/27/14 02:33 AM --></small>
+                                        </div>
+                                        <div class="links ">
+                                            
+                                                    <div class="link">
+                                                        <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.41.787/fml-1.6.4-6.4.41.787-installer.jar" title="Installer">
+                                                            <i class="fa classifier-installer"></i>
+                                                            <span class="promo-label">Installer</span>
+                                                        </a>
+                                                    </div>
+                                                    <div class="link">
+                                                        <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.41.787/fml-1.6.4-6.4.41.787-src.zip" title="Src">
+                                                            <i class="fa classifier-src"></i>
+                                                            <span class="promo-label">Src</span>
+                                                        </a>
+                                                    </div>
+                                                    <div class="link">
+                                                        <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.41.787/fml-1.6.4-6.4.41.787-universal.jar" title="Universal">
+                                                            <i class="fa classifier-universal"></i>
+                                                            <span class="promo-label">Universal</span>
+                                                        </a>
+                                                    </div>
+                                        </div>
+                                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="download-container">
+            <div class="download-disclaimer">
+                <h2>All Versions</h2>
+                <p>
+                    <strong>Note</strong> that the downloads in the list below are for getting a <em>specific</em>
+                    version of Forge.
+                    Unless you need this, prefer the links to latest and recommended builds above instead.
+                </p>
+            </div>
+            <a class="toggle-collapsible btn btn-large" href="#"><span class="fa fa-plus collapsible-icon"
+                                                                       aria-hidden="true"></span> <span
+                    class="collapsible-text">Show all Versions</span></a>
+            <div class="download-list-wrapper collapsible" data-show-text="Show all Versions"
+                 data-hide-text="Hide all Versions">
+                <table class="download-list">
+                    <thead>
+                    <tr>
+                        <th>Version</th>
+                        <th>Time</th>
+                        <th>Downloads</th>
+                    </tr>
+                    </thead>
+                    <thead class="mobile-only">
+                    <tr>
+                        <th>Downloads</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    
+                        <tr>
+                            <td class="download-version">
+                                6.4.33.779
+                            </td>
+                            <td class="download-time">09/27/14 02:35 AM</td>
+                            <td class="download-files">
+                                <ul class="download-links">
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.33.779/fml-1.6.4-6.4.33.779-installer.jar">
+                                                    <i class="fa download-classifier classifier-installer"></i> Installer
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.33.779/fml-1.6.4-6.4.33.779-installer.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> 62f800de298636bf245a712e1734faad<br>
+                                                    <strong>SHA1:</strong> 0e0ebf2479378f91e5225bc00a97767d409ef12d
+                                                        <br><a href="1.6.4-6.4.33.779/fml-1.6.4-6.4.33.779-installer.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.33.779/fml-1.6.4-6.4.33.779-src.zip">
+                                                    <i class="fa download-classifier classifier-src"></i> Src
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.33.779/fml-1.6.4-6.4.33.779-src.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> a53422d31c1d7e6114673d98ed4cabcc<br>
+                                                    <strong>SHA1:</strong> 33f08c3d352574262cac573db9908134ae4d4981
+                                                        <br><a href="1.6.4-6.4.33.779/fml-1.6.4-6.4.33.779-src.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.33.779/fml-1.6.4-6.4.33.779-universal.jar">
+                                                    <i class="fa download-classifier classifier-universal"></i> Universal
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.33.779/fml-1.6.4-6.4.33.779-universal.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> f8f44c33c191b5a34f4dd6ca3c7e812e<br>
+                                                    <strong>SHA1:</strong> 6a753117736271450d5f8c89aade9df49d4da65b
+                                                        <br><a href="1.6.4-6.4.33.779/fml-1.6.4-6.4.33.779-universal.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                </ul>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td class="download-version">
+                                6.4.29.776
+                            </td>
+                            <td class="download-time">09/27/14 02:35 AM</td>
+                            <td class="download-files">
+                                <ul class="download-links">
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.29.776/fml-1.6.4-6.4.29.776-installer.jar">
+                                                    <i class="fa download-classifier classifier-installer"></i> Installer
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.29.776/fml-1.6.4-6.4.29.776-installer.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> a8246e5c836af1d676661d97d03b037f<br>
+                                                    <strong>SHA1:</strong> a65a7f7aa8a75081a1f25b2689c3199f1bfe8013
+                                                        <br><a href="1.6.4-6.4.29.776/fml-1.6.4-6.4.29.776-installer.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.29.776/fml-1.6.4-6.4.29.776-src.zip">
+                                                    <i class="fa download-classifier classifier-src"></i> Src
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.29.776/fml-1.6.4-6.4.29.776-src.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> efc429ab7855b204d3fb14c4f9d689bc<br>
+                                                    <strong>SHA1:</strong> c39bafd41ebd73850eafe159e5911ad556be25e1
+                                                        <br><a href="1.6.4-6.4.29.776/fml-1.6.4-6.4.29.776-src.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.29.776/fml-1.6.4-6.4.29.776-universal.jar">
+                                                    <i class="fa download-classifier classifier-universal"></i> Universal
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.29.776/fml-1.6.4-6.4.29.776-universal.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> 07106c94cba299fbbaa90f7b26abf65e<br>
+                                                    <strong>SHA1:</strong> 62123fd24baa68235fc53db7854553be98fcb79d
+                                                        <br><a href="1.6.4-6.4.29.776/fml-1.6.4-6.4.29.776-universal.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                </ul>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td class="download-version">
+                                6.4.34.780
+                            </td>
+                            <td class="download-time">09/27/14 02:34 AM</td>
+                            <td class="download-files">
+                                <ul class="download-links">
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.34.780/fml-1.6.4-6.4.34.780-installer.jar">
+                                                    <i class="fa download-classifier classifier-installer"></i> Installer
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.34.780/fml-1.6.4-6.4.34.780-installer.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> a6d8ea0f47742532bf5ff4d4623bc1d5<br>
+                                                    <strong>SHA1:</strong> f881668f6421d5ec321e6034945cdc859682088d
+                                                        <br><a href="1.6.4-6.4.34.780/fml-1.6.4-6.4.34.780-installer.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.34.780/fml-1.6.4-6.4.34.780-src.zip">
+                                                    <i class="fa download-classifier classifier-src"></i> Src
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.34.780/fml-1.6.4-6.4.34.780-src.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> d195472bca41f6f44091e4b77a5e9bd4<br>
+                                                    <strong>SHA1:</strong> fce3c890fd4e8f2239d15d79b8807e65761d45f7
+                                                        <br><a href="1.6.4-6.4.34.780/fml-1.6.4-6.4.34.780-src.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.34.780/fml-1.6.4-6.4.34.780-universal.jar">
+                                                    <i class="fa download-classifier classifier-universal"></i> Universal
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.34.780/fml-1.6.4-6.4.34.780-universal.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> 6603dcf71041b1bd066178af24a7c783<br>
+                                                    <strong>SHA1:</strong> e6b0d6254cac9a77aec0a0033906b97e0ebba3a8
+                                                        <br><a href="1.6.4-6.4.34.780/fml-1.6.4-6.4.34.780-universal.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                </ul>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td class="download-version">
+                                6.4.6.757
+                            </td>
+                            <td class="download-time">09/27/14 02:33 AM</td>
+                            <td class="download-files">
+                                <ul class="download-links">
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.6.757/fml-1.6.4-6.4.6.757-installer.jar">
+                                                    <i class="fa download-classifier classifier-installer"></i> Installer
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.6.757/fml-1.6.4-6.4.6.757-installer.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> ee7b28b92083b006937ae14c6e747a37<br>
+                                                    <strong>SHA1:</strong> fb4a370541d824d68f9c067739fe82e997261f9c
+                                                        <br><a href="1.6.4-6.4.6.757/fml-1.6.4-6.4.6.757-installer.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.6.757/fml-1.6.4-6.4.6.757-src.zip">
+                                                    <i class="fa download-classifier classifier-src"></i> Src
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.6.757/fml-1.6.4-6.4.6.757-src.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> a271861360c2ad3f6e724e2216cf7993<br>
+                                                    <strong>SHA1:</strong> 1cc5e704b66ed371353a8c447e62ba91aad878b5
+                                                        <br><a href="1.6.4-6.4.6.757/fml-1.6.4-6.4.6.757-src.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.6.757/fml-1.6.4-6.4.6.757-universal.jar">
+                                                    <i class="fa download-classifier classifier-universal"></i> Universal
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.6.757/fml-1.6.4-6.4.6.757-universal.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> cc96735df187a0f9d82357cff219b1df<br>
+                                                    <strong>SHA1:</strong> 0ea22b47b603324034c5c294d8e1070d8da90533
+                                                        <br><a href="1.6.4-6.4.6.757/fml-1.6.4-6.4.6.757-universal.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                </ul>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td class="download-version">
+                                6.4.18.767
+                            </td>
+                            <td class="download-time">09/27/14 02:37 AM</td>
+                            <td class="download-files">
+                                <ul class="download-links">
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.18.767/fml-1.6.4-6.4.18.767-installer.jar">
+                                                    <i class="fa download-classifier classifier-installer"></i> Installer
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.18.767/fml-1.6.4-6.4.18.767-installer.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> 52b72a27dc628926d56b138258daba7d<br>
+                                                    <strong>SHA1:</strong> 941e8157c36cd6d986674f864210aec498bb5acb
+                                                        <br><a href="1.6.4-6.4.18.767/fml-1.6.4-6.4.18.767-installer.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.18.767/fml-1.6.4-6.4.18.767-src.zip">
+                                                    <i class="fa download-classifier classifier-src"></i> Src
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.18.767/fml-1.6.4-6.4.18.767-src.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> 5ca8ef2d3705029b879b3b04a3698b64<br>
+                                                    <strong>SHA1:</strong> f0c1150f01cc25a6b2f4e106a65c7743da6985d9
+                                                        <br><a href="1.6.4-6.4.18.767/fml-1.6.4-6.4.18.767-src.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.18.767/fml-1.6.4-6.4.18.767-universal.jar">
+                                                    <i class="fa download-classifier classifier-universal"></i> Universal
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.18.767/fml-1.6.4-6.4.18.767-universal.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> a73556807d936acfd3b13617acfb452d<br>
+                                                    <strong>SHA1:</strong> b69231928dcf9495a48dc26bc34dd370f28f90e7
+                                                        <br><a href="1.6.4-6.4.18.767/fml-1.6.4-6.4.18.767-universal.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                </ul>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td class="download-version">
+                                6.4.9.760
+                            </td>
+                            <td class="download-time">09/27/14 02:32 AM</td>
+                            <td class="download-files">
+                                <ul class="download-links">
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.9.760/fml-1.6.4-6.4.9.760-installer.jar">
+                                                    <i class="fa download-classifier classifier-installer"></i> Installer
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.9.760/fml-1.6.4-6.4.9.760-installer.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> 9df0c082ebba7da09ed2ab764dbefbd9<br>
+                                                    <strong>SHA1:</strong> cdef257377f4a366395f8c7ad8e1f60eefde2c06
+                                                        <br><a href="1.6.4-6.4.9.760/fml-1.6.4-6.4.9.760-installer.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.9.760/fml-1.6.4-6.4.9.760-src.zip">
+                                                    <i class="fa download-classifier classifier-src"></i> Src
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.9.760/fml-1.6.4-6.4.9.760-src.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> 11796124956e4cd30fec660d55df8bf0<br>
+                                                    <strong>SHA1:</strong> 983633a27612f53086f9ac1f85a4c1fba7b23ea3
+                                                        <br><a href="1.6.4-6.4.9.760/fml-1.6.4-6.4.9.760-src.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.9.760/fml-1.6.4-6.4.9.760-universal.jar">
+                                                    <i class="fa download-classifier classifier-universal"></i> Universal
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.9.760/fml-1.6.4-6.4.9.760-universal.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> f8509f3bdbc2d6d88c286404b052672d<br>
+                                                    <strong>SHA1:</strong> 2a43315348e17fad7065b796b0615214e1c8fd3d
+                                                        <br><a href="1.6.4-6.4.9.760/fml-1.6.4-6.4.9.760-universal.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                </ul>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td class="download-version">
+                                6.4.41.787
+                                    <i class="fa promo-latest"></i>
+                            </td>
+                            <td class="download-time">09/27/14 02:33 AM</td>
+                            <td class="download-files">
+                                <ul class="download-links">
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.41.787/fml-1.6.4-6.4.41.787-installer.jar">
+                                                    <i class="fa download-classifier classifier-installer"></i> Installer
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.41.787/fml-1.6.4-6.4.41.787-installer.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> bd9fd651b430869c94394d892b12c535<br>
+                                                    <strong>SHA1:</strong> 738ea8375511d08c40b50a7da43f112012980978
+                                                        <br><a href="1.6.4-6.4.41.787/fml-1.6.4-6.4.41.787-installer.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.41.787/fml-1.6.4-6.4.41.787-src.zip">
+                                                    <i class="fa download-classifier classifier-src"></i> Src
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.41.787/fml-1.6.4-6.4.41.787-src.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> 0fe2e44b4d62dd92cad5912a1f2a9949<br>
+                                                    <strong>SHA1:</strong> 788500b7cd454f23762d4c84ec267fda961ac9e1
+                                                        <br><a href="1.6.4-6.4.41.787/fml-1.6.4-6.4.41.787-src.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.41.787/fml-1.6.4-6.4.41.787-universal.jar">
+                                                    <i class="fa download-classifier classifier-universal"></i> Universal
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.41.787/fml-1.6.4-6.4.41.787-universal.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> a84dc3eb2fdd79fe6502c70bd170609c<br>
+                                                    <strong>SHA1:</strong> 1e768def53beb6fec8e0d0e89c1d36ba086c0063
+                                                        <br><a href="1.6.4-6.4.41.787/fml-1.6.4-6.4.41.787-universal.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                </ul>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td class="download-version">
+                                6.4.37.783
+                            </td>
+                            <td class="download-time">09/27/14 02:34 AM</td>
+                            <td class="download-files">
+                                <ul class="download-links">
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.37.783/fml-1.6.4-6.4.37.783-installer.jar">
+                                                    <i class="fa download-classifier classifier-installer"></i> Installer
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.37.783/fml-1.6.4-6.4.37.783-installer.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> f7a362428b3114c4903db66bfc678f83<br>
+                                                    <strong>SHA1:</strong> b1435ef64f076af2a7f4953a16f1bd5db46d0f7e
+                                                        <br><a href="1.6.4-6.4.37.783/fml-1.6.4-6.4.37.783-installer.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.37.783/fml-1.6.4-6.4.37.783-src.zip">
+                                                    <i class="fa download-classifier classifier-src"></i> Src
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.37.783/fml-1.6.4-6.4.37.783-src.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> b42d8e76af617c67558bc13486fc7df7<br>
+                                                    <strong>SHA1:</strong> 3b31eb23a0e4079bf662a77f631d4326fc625f97
+                                                        <br><a href="1.6.4-6.4.37.783/fml-1.6.4-6.4.37.783-src.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.37.783/fml-1.6.4-6.4.37.783-universal.jar">
+                                                    <i class="fa download-classifier classifier-universal"></i> Universal
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.37.783/fml-1.6.4-6.4.37.783-universal.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> 305fd760136b64dd0bfabe503f14a9ac<br>
+                                                    <strong>SHA1:</strong> 999beb709fb4baf86f01da864f663b4b2727382c
+                                                        <br><a href="1.6.4-6.4.37.783/fml-1.6.4-6.4.37.783-universal.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                </ul>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td class="download-version">
+                                6.4.25.773
+                            </td>
+                            <td class="download-time">09/27/14 02:36 AM</td>
+                            <td class="download-files">
+                                <ul class="download-links">
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.25.773/fml-1.6.4-6.4.25.773-installer.jar">
+                                                    <i class="fa download-classifier classifier-installer"></i> Installer
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.25.773/fml-1.6.4-6.4.25.773-installer.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> 46ca0f6e08196d059492f32a2f26627e<br>
+                                                    <strong>SHA1:</strong> b68e1220ead178c3f4b7ead8109730eb8e41bfbe
+                                                        <br><a href="1.6.4-6.4.25.773/fml-1.6.4-6.4.25.773-installer.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.25.773/fml-1.6.4-6.4.25.773-src.zip">
+                                                    <i class="fa download-classifier classifier-src"></i> Src
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.25.773/fml-1.6.4-6.4.25.773-src.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> e35672590e3f7be444d0c561d9e5988f<br>
+                                                    <strong>SHA1:</strong> b5d184e623814727f8d90f83cb5c101c5c466751
+                                                        <br><a href="1.6.4-6.4.25.773/fml-1.6.4-6.4.25.773-src.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.25.773/fml-1.6.4-6.4.25.773-universal.jar">
+                                                    <i class="fa download-classifier classifier-universal"></i> Universal
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.25.773/fml-1.6.4-6.4.25.773-universal.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> 39b9244ee02a4e2437dcee0ceeae3d81<br>
+                                                    <strong>SHA1:</strong> 171ad9da9c5e1bd2eecc5a311181ddd1ddd86dfb
+                                                        <br><a href="1.6.4-6.4.25.773/fml-1.6.4-6.4.25.773-universal.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                </ul>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td class="download-version">
+                                6.4.20.769
+                            </td>
+                            <td class="download-time">09/27/14 02:37 AM</td>
+                            <td class="download-files">
+                                <ul class="download-links">
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.20.769/fml-1.6.4-6.4.20.769-installer.jar">
+                                                    <i class="fa download-classifier classifier-installer"></i> Installer
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.20.769/fml-1.6.4-6.4.20.769-installer.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> 44c29925e7242c54213b7e20790b8f24<br>
+                                                    <strong>SHA1:</strong> 3eb788e5cb8c73c564ee5005f0b535cc2735cc13
+                                                        <br><a href="1.6.4-6.4.20.769/fml-1.6.4-6.4.20.769-installer.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.20.769/fml-1.6.4-6.4.20.769-src.zip">
+                                                    <i class="fa download-classifier classifier-src"></i> Src
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.20.769/fml-1.6.4-6.4.20.769-src.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> 2423e978c287ba63589de648c6ab790a<br>
+                                                    <strong>SHA1:</strong> 763e706ba8a4045776fc0f0bcc7175f48fb37907
+                                                        <br><a href="1.6.4-6.4.20.769/fml-1.6.4-6.4.20.769-src.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.20.769/fml-1.6.4-6.4.20.769-universal.jar">
+                                                    <i class="fa download-classifier classifier-universal"></i> Universal
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.20.769/fml-1.6.4-6.4.20.769-universal.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> 7e28a88d8fb331373bf1b79ee338cd84<br>
+                                                    <strong>SHA1:</strong> 68f034e46257acabe91c2dfcd729d41d92621c61
+                                                        <br><a href="1.6.4-6.4.20.769/fml-1.6.4-6.4.20.769-universal.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                </ul>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td class="download-version">
+                                6.4.5.756
+                            </td>
+                            <td class="download-time">09/27/14 02:33 AM</td>
+                            <td class="download-files">
+                                <ul class="download-links">
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.5.756/fml-1.6.4-6.4.5.756-installer.jar">
+                                                    <i class="fa download-classifier classifier-installer"></i> Installer
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.5.756/fml-1.6.4-6.4.5.756-installer.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> 8cdf9c65bfcc02382b56cd8853516efe<br>
+                                                    <strong>SHA1:</strong> 597ae13562736d62483de8daeda943ab96d8b250
+                                                        <br><a href="1.6.4-6.4.5.756/fml-1.6.4-6.4.5.756-installer.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.5.756/fml-1.6.4-6.4.5.756-src.zip">
+                                                    <i class="fa download-classifier classifier-src"></i> Src
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.5.756/fml-1.6.4-6.4.5.756-src.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> b58f85f4a5dae7daa03251e305781c5b<br>
+                                                    <strong>SHA1:</strong> 9824420e18a2d38ab5731d9ee743b68378ea63b7
+                                                        <br><a href="1.6.4-6.4.5.756/fml-1.6.4-6.4.5.756-src.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.5.756/fml-1.6.4-6.4.5.756-universal.jar">
+                                                    <i class="fa download-classifier classifier-universal"></i> Universal
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.5.756/fml-1.6.4-6.4.5.756-universal.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> e64a02e5ac7f8592c908eebf3431aec6<br>
+                                                    <strong>SHA1:</strong> 268df6e4bbca3376ce1e23725a0ace13809fc376
+                                                        <br><a href="1.6.4-6.4.5.756/fml-1.6.4-6.4.5.756-universal.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                </ul>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td class="download-version">
+                                6.4.0.752
+                            </td>
+                            <td class="download-time">09/27/14 02:39 AM</td>
+                            <td class="download-files">
+                                <ul class="download-links">
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.0.752/fml-1.6.4-6.4.0.752-installer.jar">
+                                                    <i class="fa download-classifier classifier-installer"></i> Installer
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.0.752/fml-1.6.4-6.4.0.752-installer.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> a580f69028291be187915883e6f3b567<br>
+                                                    <strong>SHA1:</strong> 1db78696361957af96ec1dbf526d99b5d9327d27
+                                                        <br><a href="1.6.4-6.4.0.752/fml-1.6.4-6.4.0.752-installer.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.0.752/fml-1.6.4-6.4.0.752-src.zip">
+                                                    <i class="fa download-classifier classifier-src"></i> Src
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.0.752/fml-1.6.4-6.4.0.752-src.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> b4ca5c00c4beec60d40a8d4d8e337ce5<br>
+                                                    <strong>SHA1:</strong> ccd875633d8098a3b5dd77e8c4dcc34c40e805ca
+                                                        <br><a href="1.6.4-6.4.0.752/fml-1.6.4-6.4.0.752-src.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.0.752/fml-1.6.4-6.4.0.752-universal.jar">
+                                                    <i class="fa download-classifier classifier-universal"></i> Universal
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.0.752/fml-1.6.4-6.4.0.752-universal.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> 5cf3317457a2831d0c2eda7f790b13f7<br>
+                                                    <strong>SHA1:</strong> 2af6cb54bda41b02f072eefb04b116df7f2b2f27
+                                                        <br><a href="1.6.4-6.4.0.752/fml-1.6.4-6.4.0.752-universal.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                </ul>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td class="download-version">
+                                6.4.15.764
+                            </td>
+                            <td class="download-time">09/27/14 02:38 AM</td>
+                            <td class="download-files">
+                                <ul class="download-links">
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.15.764/fml-1.6.4-6.4.15.764-installer.jar">
+                                                    <i class="fa download-classifier classifier-installer"></i> Installer
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.15.764/fml-1.6.4-6.4.15.764-installer.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> 15d8220b885f8d64b92d1f48ebdf5035<br>
+                                                    <strong>SHA1:</strong> 6796fb4f849a27c57e0f86054a11714224994772
+                                                        <br><a href="1.6.4-6.4.15.764/fml-1.6.4-6.4.15.764-installer.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.15.764/fml-1.6.4-6.4.15.764-src.zip">
+                                                    <i class="fa download-classifier classifier-src"></i> Src
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.15.764/fml-1.6.4-6.4.15.764-src.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> 5f36de90b8510a59c5000bc583035ef5<br>
+                                                    <strong>SHA1:</strong> 147f11efa176ba261ccdb651d85b5d17942c4dee
+                                                        <br><a href="1.6.4-6.4.15.764/fml-1.6.4-6.4.15.764-src.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.15.764/fml-1.6.4-6.4.15.764-universal.jar">
+                                                    <i class="fa download-classifier classifier-universal"></i> Universal
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.15.764/fml-1.6.4-6.4.15.764-universal.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> 72f3b2b02f3b3defc31e8c53ceded5b8<br>
+                                                    <strong>SHA1:</strong> f694fd18a23c9b03e5dd86d4ae93e70ad93d0bfd
+                                                        <br><a href="1.6.4-6.4.15.764/fml-1.6.4-6.4.15.764-universal.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                </ul>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td class="download-version">
+                                6.4.36.782
+                            </td>
+                            <td class="download-time">09/27/14 02:34 AM</td>
+                            <td class="download-files">
+                                <ul class="download-links">
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.36.782/fml-1.6.4-6.4.36.782-installer.jar">
+                                                    <i class="fa download-classifier classifier-installer"></i> Installer
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.36.782/fml-1.6.4-6.4.36.782-installer.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> ab16f5288fdff7a5e0f9a9136dcbe0f9<br>
+                                                    <strong>SHA1:</strong> 0a7ecea54c8ee61ec332f35b6db31b1ff636197b
+                                                        <br><a href="1.6.4-6.4.36.782/fml-1.6.4-6.4.36.782-installer.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.36.782/fml-1.6.4-6.4.36.782-src.zip">
+                                                    <i class="fa download-classifier classifier-src"></i> Src
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.36.782/fml-1.6.4-6.4.36.782-src.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> 4b92d89d8bd16c596c4e4adeca78e83f<br>
+                                                    <strong>SHA1:</strong> 4b1079279aedc8291f6faaccb21a585f26152525
+                                                        <br><a href="1.6.4-6.4.36.782/fml-1.6.4-6.4.36.782-src.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.36.782/fml-1.6.4-6.4.36.782-universal.jar">
+                                                    <i class="fa download-classifier classifier-universal"></i> Universal
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.36.782/fml-1.6.4-6.4.36.782-universal.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> 26c6a6c69120c48514e74a958709966c<br>
+                                                    <strong>SHA1:</strong> 66059b409d7e3709c7d1ddb965bf437eb66f6cef
+                                                        <br><a href="1.6.4-6.4.36.782/fml-1.6.4-6.4.36.782-universal.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                </ul>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td class="download-version">
+                                6.4.13.762
+                            </td>
+                            <td class="download-time">09/27/14 02:38 AM</td>
+                            <td class="download-files">
+                                <ul class="download-links">
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.13.762/fml-1.6.4-6.4.13.762-installer.jar">
+                                                    <i class="fa download-classifier classifier-installer"></i> Installer
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.13.762/fml-1.6.4-6.4.13.762-installer.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> 1decbd9e0ec8c7a5eafce2b18d358773<br>
+                                                    <strong>SHA1:</strong> fd3f8c252b104801e803c526ce971642188236d1
+                                                        <br><a href="1.6.4-6.4.13.762/fml-1.6.4-6.4.13.762-installer.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.13.762/fml-1.6.4-6.4.13.762-src.zip">
+                                                    <i class="fa download-classifier classifier-src"></i> Src
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.13.762/fml-1.6.4-6.4.13.762-src.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> 73353f71572b3aeed05a75e4095619f7<br>
+                                                    <strong>SHA1:</strong> 9a87dffbf5ba3fc7e6e4fb91d6214f771afa05a3
+                                                        <br><a href="1.6.4-6.4.13.762/fml-1.6.4-6.4.13.762-src.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.13.762/fml-1.6.4-6.4.13.762-universal.jar">
+                                                    <i class="fa download-classifier classifier-universal"></i> Universal
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.13.762/fml-1.6.4-6.4.13.762-universal.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> 79d9e5e6c899360296a6d379dd0fabac<br>
+                                                    <strong>SHA1:</strong> b944b4e52408945ba9257138626e1f28f0790e73
+                                                        <br><a href="1.6.4-6.4.13.762/fml-1.6.4-6.4.13.762-universal.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                </ul>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td class="download-version">
+                                6.4.30.777
+                            </td>
+                            <td class="download-time">09/27/14 02:35 AM</td>
+                            <td class="download-files">
+                                <ul class="download-links">
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.30.777/fml-1.6.4-6.4.30.777-installer.jar">
+                                                    <i class="fa download-classifier classifier-installer"></i> Installer
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.30.777/fml-1.6.4-6.4.30.777-installer.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> a4cacb6c6f2b12c0cb849defa3540106<br>
+                                                    <strong>SHA1:</strong> 210b6bd75702b3d25fbc0ddd40445ae33c961085
+                                                        <br><a href="1.6.4-6.4.30.777/fml-1.6.4-6.4.30.777-installer.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.30.777/fml-1.6.4-6.4.30.777-src.zip">
+                                                    <i class="fa download-classifier classifier-src"></i> Src
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.30.777/fml-1.6.4-6.4.30.777-src.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> a2a99d6dea866ead658d0e6f8aa0eb34<br>
+                                                    <strong>SHA1:</strong> 22efee2091e2c213da388dff8af2a2891f05a6cc
+                                                        <br><a href="1.6.4-6.4.30.777/fml-1.6.4-6.4.30.777-src.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.30.777/fml-1.6.4-6.4.30.777-universal.jar">
+                                                    <i class="fa download-classifier classifier-universal"></i> Universal
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.30.777/fml-1.6.4-6.4.30.777-universal.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> 41f9b5702b1a9a4d7bade8ee6ed8dba0<br>
+                                                    <strong>SHA1:</strong> 2e1acb48ca0bdf0cb4d5e260ca918f37b529a79d
+                                                        <br><a href="1.6.4-6.4.30.777/fml-1.6.4-6.4.30.777-universal.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                </ul>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td class="download-version">
+                                6.4.3.755
+                            </td>
+                            <td class="download-time">09/27/14 02:35 AM</td>
+                            <td class="download-files">
+                                <ul class="download-links">
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.3.755/fml-1.6.4-6.4.3.755-installer.jar">
+                                                    <i class="fa download-classifier classifier-installer"></i> Installer
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.3.755/fml-1.6.4-6.4.3.755-installer.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> f4310de65d6d16fecf5c09d971fef755<br>
+                                                    <strong>SHA1:</strong> 4a29e5a62842f1a29d22cf2b9b603764a8fa4bae
+                                                        <br><a href="1.6.4-6.4.3.755/fml-1.6.4-6.4.3.755-installer.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.3.755/fml-1.6.4-6.4.3.755-src.zip">
+                                                    <i class="fa download-classifier classifier-src"></i> Src
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.3.755/fml-1.6.4-6.4.3.755-src.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> fdf53ccfe9926c260324cc5ce3d41019<br>
+                                                    <strong>SHA1:</strong> d56c010c47d3285471e27cb5cbf6a08ad8ecdd82
+                                                        <br><a href="1.6.4-6.4.3.755/fml-1.6.4-6.4.3.755-src.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.3.755/fml-1.6.4-6.4.3.755-universal.jar">
+                                                    <i class="fa download-classifier classifier-universal"></i> Universal
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.3.755/fml-1.6.4-6.4.3.755-universal.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> aab322f8c3f79c86c5abd5074ad0d651<br>
+                                                    <strong>SHA1:</strong> 32007c93d2989d62ee0fdb7eaa9d39f6a2db92d2
+                                                        <br><a href="1.6.4-6.4.3.755/fml-1.6.4-6.4.3.755-universal.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                </ul>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td class="download-version">
+                                6.4.1.753
+                            </td>
+                            <td class="download-time">09/27/14 02:39 AM</td>
+                            <td class="download-files">
+                                <ul class="download-links">
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.1.753/fml-1.6.4-6.4.1.753-installer.jar">
+                                                    <i class="fa download-classifier classifier-installer"></i> Installer
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.1.753/fml-1.6.4-6.4.1.753-installer.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> 7bf279cf517c721d7d6a1d7de517b89c<br>
+                                                    <strong>SHA1:</strong> f7428fe53d1b89d83ff0b91b3fa038ef96742b0c
+                                                        <br><a href="1.6.4-6.4.1.753/fml-1.6.4-6.4.1.753-installer.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.1.753/fml-1.6.4-6.4.1.753-src.zip">
+                                                    <i class="fa download-classifier classifier-src"></i> Src
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.1.753/fml-1.6.4-6.4.1.753-src.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> d8a4d458a9b219522a0ae712faf648e7<br>
+                                                    <strong>SHA1:</strong> 093682a85c888ca81efbe6c59d24bec89fb12da0
+                                                        <br><a href="1.6.4-6.4.1.753/fml-1.6.4-6.4.1.753-src.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.1.753/fml-1.6.4-6.4.1.753-universal.jar">
+                                                    <i class="fa download-classifier classifier-universal"></i> Universal
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.1.753/fml-1.6.4-6.4.1.753-universal.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> f315a273644170cada832fa7b2d1c68b<br>
+                                                    <strong>SHA1:</strong> d6b072b9805aebbcc66e645708cccbf42aa02d59
+                                                        <br><a href="1.6.4-6.4.1.753/fml-1.6.4-6.4.1.753-universal.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                </ul>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td class="download-version">
+                                6.4.19.768
+                            </td>
+                            <td class="download-time">09/27/14 02:37 AM</td>
+                            <td class="download-files">
+                                <ul class="download-links">
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.19.768/fml-1.6.4-6.4.19.768-installer.jar">
+                                                    <i class="fa download-classifier classifier-installer"></i> Installer
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.19.768/fml-1.6.4-6.4.19.768-installer.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> 6982369583501c1ab3fe2d3aaa588fb9<br>
+                                                    <strong>SHA1:</strong> ff42a83e3e40c39a579ad61975a10f8faff33999
+                                                        <br><a href="1.6.4-6.4.19.768/fml-1.6.4-6.4.19.768-installer.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.19.768/fml-1.6.4-6.4.19.768-src.zip">
+                                                    <i class="fa download-classifier classifier-src"></i> Src
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.19.768/fml-1.6.4-6.4.19.768-src.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> c0abd3c0dcbfac27591bf3536f64b6bd<br>
+                                                    <strong>SHA1:</strong> f3f82934fad7cadd1c17bd28d031d68629c1d436
+                                                        <br><a href="1.6.4-6.4.19.768/fml-1.6.4-6.4.19.768-src.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.19.768/fml-1.6.4-6.4.19.768-universal.jar">
+                                                    <i class="fa download-classifier classifier-universal"></i> Universal
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.19.768/fml-1.6.4-6.4.19.768-universal.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> 4b597a13111a4888de097abeb67fa980<br>
+                                                    <strong>SHA1:</strong> 54f8c97acd094f38d7e339a20316be313c92264f
+                                                        <br><a href="1.6.4-6.4.19.768/fml-1.6.4-6.4.19.768-universal.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                </ul>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td class="download-version">
+                                6.4.21.770
+                            </td>
+                            <td class="download-time">09/27/14 02:37 AM</td>
+                            <td class="download-files">
+                                <ul class="download-links">
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.21.770/fml-1.6.4-6.4.21.770-installer.jar">
+                                                    <i class="fa download-classifier classifier-installer"></i> Installer
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.21.770/fml-1.6.4-6.4.21.770-installer.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> fafbc28c22ca711526a8ca0000c0aabb<br>
+                                                    <strong>SHA1:</strong> 38f8243df547d4d3d4b2cdc4c4d95b45299a07db
+                                                        <br><a href="1.6.4-6.4.21.770/fml-1.6.4-6.4.21.770-installer.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.21.770/fml-1.6.4-6.4.21.770-src.zip">
+                                                    <i class="fa download-classifier classifier-src"></i> Src
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.21.770/fml-1.6.4-6.4.21.770-src.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> 10a41747fe15c9f98b85b2c7f4b03827<br>
+                                                    <strong>SHA1:</strong> 8eb0fe86c318cb9e83d90a37bc06ed817de212d0
+                                                        <br><a href="1.6.4-6.4.21.770/fml-1.6.4-6.4.21.770-src.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.21.770/fml-1.6.4-6.4.21.770-universal.jar">
+                                                    <i class="fa download-classifier classifier-universal"></i> Universal
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.21.770/fml-1.6.4-6.4.21.770-universal.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> 3d942bf4aabc3523ecea5a4a59187926<br>
+                                                    <strong>SHA1:</strong> 74b2fe436aec86105205fe16a48395d08a218921
+                                                        <br><a href="1.6.4-6.4.21.770/fml-1.6.4-6.4.21.770-universal.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                </ul>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td class="download-version">
+                                6.4.27.774
+                            </td>
+                            <td class="download-time">09/27/14 02:36 AM</td>
+                            <td class="download-files">
+                                <ul class="download-links">
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.27.774/fml-1.6.4-6.4.27.774-installer.jar">
+                                                    <i class="fa download-classifier classifier-installer"></i> Installer
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.27.774/fml-1.6.4-6.4.27.774-installer.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> d4d6c66ec5481a61546e87561088c3e3<br>
+                                                    <strong>SHA1:</strong> 257e3d59a6f0b3392a98cc61c45cdd1c7d905f34
+                                                        <br><a href="1.6.4-6.4.27.774/fml-1.6.4-6.4.27.774-installer.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.27.774/fml-1.6.4-6.4.27.774-src.zip">
+                                                    <i class="fa download-classifier classifier-src"></i> Src
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.27.774/fml-1.6.4-6.4.27.774-src.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> b41b4a3a6b467e4164ef31ddbed143f8<br>
+                                                    <strong>SHA1:</strong> 32a0bade0d637de303b0277dea909b4ac22a95e8
+                                                        <br><a href="1.6.4-6.4.27.774/fml-1.6.4-6.4.27.774-src.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.27.774/fml-1.6.4-6.4.27.774-universal.jar">
+                                                    <i class="fa download-classifier classifier-universal"></i> Universal
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.27.774/fml-1.6.4-6.4.27.774-universal.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> e8da6a8744503fb5fd4e36b04e8434b2<br>
+                                                    <strong>SHA1:</strong> 014b933d185a0729876a4c629b4f67eab56909ca
+                                                        <br><a href="1.6.4-6.4.27.774/fml-1.6.4-6.4.27.774-universal.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                </ul>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td class="download-version">
+                                6.4.39.785
+                            </td>
+                            <td class="download-time">09/27/14 02:34 AM</td>
+                            <td class="download-files">
+                                <ul class="download-links">
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.39.785/fml-1.6.4-6.4.39.785-installer.jar">
+                                                    <i class="fa download-classifier classifier-installer"></i> Installer
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.39.785/fml-1.6.4-6.4.39.785-installer.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> b1771c1aaeeea215ec7fb59af0770f05<br>
+                                                    <strong>SHA1:</strong> df9a9daa28ab4ffb2f8b069d8125b1c93d0d84a6
+                                                        <br><a href="1.6.4-6.4.39.785/fml-1.6.4-6.4.39.785-installer.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.39.785/fml-1.6.4-6.4.39.785-src.zip">
+                                                    <i class="fa download-classifier classifier-src"></i> Src
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.39.785/fml-1.6.4-6.4.39.785-src.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> 7088a1e1525011ef188121f1f0df2f65<br>
+                                                    <strong>SHA1:</strong> ceb3a168a4cd33a1aff975689ec427824581b067
+                                                        <br><a href="1.6.4-6.4.39.785/fml-1.6.4-6.4.39.785-src.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.39.785/fml-1.6.4-6.4.39.785-universal.jar">
+                                                    <i class="fa download-classifier classifier-universal"></i> Universal
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.39.785/fml-1.6.4-6.4.39.785-universal.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> 44c82db735b0f880f8a5aec4b09feee5<br>
+                                                    <strong>SHA1:</strong> 7c14182bde2ac5ed6ded0a32a7eb163592d628a5
+                                                        <br><a href="1.6.4-6.4.39.785/fml-1.6.4-6.4.39.785-universal.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                </ul>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td class="download-version">
+                                6.4.40.786
+                            </td>
+                            <td class="download-time">09/27/14 02:33 AM</td>
+                            <td class="download-files">
+                                <ul class="download-links">
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.40.786/fml-1.6.4-6.4.40.786-installer.jar">
+                                                    <i class="fa download-classifier classifier-installer"></i> Installer
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.40.786/fml-1.6.4-6.4.40.786-installer.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> c4f6d439c46c07f0d1d80d614a8bfcad<br>
+                                                    <strong>SHA1:</strong> 725c2c107abed25e4db9d305384068c46a6e6b1a
+                                                        <br><a href="1.6.4-6.4.40.786/fml-1.6.4-6.4.40.786-installer.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.40.786/fml-1.6.4-6.4.40.786-src.zip">
+                                                    <i class="fa download-classifier classifier-src"></i> Src
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.40.786/fml-1.6.4-6.4.40.786-src.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> a19d08a30ad9c8db775ffe483c787bbf<br>
+                                                    <strong>SHA1:</strong> c748d3251be0c8ba7f476630bf67f91f2e7ac7f5
+                                                        <br><a href="1.6.4-6.4.40.786/fml-1.6.4-6.4.40.786-src.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.40.786/fml-1.6.4-6.4.40.786-universal.jar">
+                                                    <i class="fa download-classifier classifier-universal"></i> Universal
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.40.786/fml-1.6.4-6.4.40.786-universal.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> 9121d63ac15bd92ac7da92fd61b6a6ef<br>
+                                                    <strong>SHA1:</strong> ced8db5f97bd8ab60568c23149f1f88156033fb9
+                                                        <br><a href="1.6.4-6.4.40.786/fml-1.6.4-6.4.40.786-universal.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                </ul>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td class="download-version">
+                                6.4.31.778
+                            </td>
+                            <td class="download-time">09/27/14 02:35 AM</td>
+                            <td class="download-files">
+                                <ul class="download-links">
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.31.778/fml-1.6.4-6.4.31.778-installer.jar">
+                                                    <i class="fa download-classifier classifier-installer"></i> Installer
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.31.778/fml-1.6.4-6.4.31.778-installer.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> 1e759805441541ff5cc220802fe6ac8a<br>
+                                                    <strong>SHA1:</strong> bd449878d87cc0613ad55a2dab5ba25ea7f9d136
+                                                        <br><a href="1.6.4-6.4.31.778/fml-1.6.4-6.4.31.778-installer.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.31.778/fml-1.6.4-6.4.31.778-src.zip">
+                                                    <i class="fa download-classifier classifier-src"></i> Src
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.31.778/fml-1.6.4-6.4.31.778-src.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> db9ce8b6d38674331c7265b25e778c42<br>
+                                                    <strong>SHA1:</strong> afc4dba2497e11e1ee417ca796d9febc0fd8134d
+                                                        <br><a href="1.6.4-6.4.31.778/fml-1.6.4-6.4.31.778-src.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.31.778/fml-1.6.4-6.4.31.778-universal.jar">
+                                                    <i class="fa download-classifier classifier-universal"></i> Universal
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.31.778/fml-1.6.4-6.4.31.778-universal.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> 318c2053b93189ed39112bd38950a3cb<br>
+                                                    <strong>SHA1:</strong> dfcf005d32928042f4c250bf4725b0ded9ff21d9
+                                                        <br><a href="1.6.4-6.4.31.778/fml-1.6.4-6.4.31.778-universal.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                </ul>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td class="download-version">
+                                6.4.24.772
+                            </td>
+                            <td class="download-time">09/27/14 02:36 AM</td>
+                            <td class="download-files">
+                                <ul class="download-links">
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.24.772/fml-1.6.4-6.4.24.772-installer.jar">
+                                                    <i class="fa download-classifier classifier-installer"></i> Installer
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.24.772/fml-1.6.4-6.4.24.772-installer.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> 2b01343acde2bae6b12a31c8d4dc7dbb<br>
+                                                    <strong>SHA1:</strong> f665fc959cd3dcb93063be6c702251c378fd03ab
+                                                        <br><a href="1.6.4-6.4.24.772/fml-1.6.4-6.4.24.772-installer.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.24.772/fml-1.6.4-6.4.24.772-src.zip">
+                                                    <i class="fa download-classifier classifier-src"></i> Src
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.24.772/fml-1.6.4-6.4.24.772-src.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> d4568bec4c554fea6686b8e0f0785ba9<br>
+                                                    <strong>SHA1:</strong> f35bab5335d51d3782e362a729afce80011ad769
+                                                        <br><a href="1.6.4-6.4.24.772/fml-1.6.4-6.4.24.772-src.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.24.772/fml-1.6.4-6.4.24.772-universal.jar">
+                                                    <i class="fa download-classifier classifier-universal"></i> Universal
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.24.772/fml-1.6.4-6.4.24.772-universal.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> 3e9c62d1d21c31317962f0228282108f<br>
+                                                    <strong>SHA1:</strong> 2b0f91ab20c32104fe12235c7ec36a8f6d61fc1f
+                                                        <br><a href="1.6.4-6.4.24.772/fml-1.6.4-6.4.24.772-universal.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                </ul>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td class="download-version">
+                                6.4.12.761
+                            </td>
+                            <td class="download-time">09/27/14 02:38 AM</td>
+                            <td class="download-files">
+                                <ul class="download-links">
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.12.761/fml-1.6.4-6.4.12.761-installer.jar">
+                                                    <i class="fa download-classifier classifier-installer"></i> Installer
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.12.761/fml-1.6.4-6.4.12.761-installer.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> 2efdd941637e910adb627d67b8dc9e6b<br>
+                                                    <strong>SHA1:</strong> bd7679ae591b84611c6a7143282d362d5eb13171
+                                                        <br><a href="1.6.4-6.4.12.761/fml-1.6.4-6.4.12.761-installer.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.12.761/fml-1.6.4-6.4.12.761-src.zip">
+                                                    <i class="fa download-classifier classifier-src"></i> Src
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.12.761/fml-1.6.4-6.4.12.761-src.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> 9a2d9ea1f63df996058aec5d844f053c<br>
+                                                    <strong>SHA1:</strong> 97b0fd893e8b7cf10b94c805c3869096345c081d
+                                                        <br><a href="1.6.4-6.4.12.761/fml-1.6.4-6.4.12.761-src.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.12.761/fml-1.6.4-6.4.12.761-universal.jar">
+                                                    <i class="fa download-classifier classifier-universal"></i> Universal
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.12.761/fml-1.6.4-6.4.12.761-universal.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> 627021a99789af29ec4abff27317d4a9<br>
+                                                    <strong>SHA1:</strong> c60f4ba77856fd418d6062fafc105f9f02b07c29
+                                                        <br><a href="1.6.4-6.4.12.761/fml-1.6.4-6.4.12.761-universal.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                </ul>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td class="download-version">
+                                6.4.8.759
+                            </td>
+                            <td class="download-time">09/27/14 02:32 AM</td>
+                            <td class="download-files">
+                                <ul class="download-links">
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.8.759/fml-1.6.4-6.4.8.759-installer.jar">
+                                                    <i class="fa download-classifier classifier-installer"></i> Installer
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.8.759/fml-1.6.4-6.4.8.759-installer.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> b2b9452bbb5d78042ea78b0b16338ddc<br>
+                                                    <strong>SHA1:</strong> e2f72449c81c40e894362811c0d73537fe8e02f4
+                                                        <br><a href="1.6.4-6.4.8.759/fml-1.6.4-6.4.8.759-installer.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.8.759/fml-1.6.4-6.4.8.759-src.zip">
+                                                    <i class="fa download-classifier classifier-src"></i> Src
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.8.759/fml-1.6.4-6.4.8.759-src.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> 90daf66b1a4e6a7df5ef4653a56a5c07<br>
+                                                    <strong>SHA1:</strong> bc6a73e77b36e35f8f555995c410776e1ae99f41
+                                                        <br><a href="1.6.4-6.4.8.759/fml-1.6.4-6.4.8.759-src.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.8.759/fml-1.6.4-6.4.8.759-universal.jar">
+                                                    <i class="fa download-classifier classifier-universal"></i> Universal
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.8.759/fml-1.6.4-6.4.8.759-universal.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> 18b8d9225cad78655de997a167f22366<br>
+                                                    <strong>SHA1:</strong> e282023980d8ce20faaefe222eb444e161efda2c
+                                                        <br><a href="1.6.4-6.4.8.759/fml-1.6.4-6.4.8.759-universal.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                </ul>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td class="download-version">
+                                6.4.14.763
+                            </td>
+                            <td class="download-time">09/27/14 02:38 AM</td>
+                            <td class="download-files">
+                                <ul class="download-links">
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.14.763/fml-1.6.4-6.4.14.763-installer.jar">
+                                                    <i class="fa download-classifier classifier-installer"></i> Installer
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.14.763/fml-1.6.4-6.4.14.763-installer.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> fbba6ec23fefabc6cfb838f8960a3bea<br>
+                                                    <strong>SHA1:</strong> 4aa67b35fc1482f8aa60a0767a12946eaf4bd320
+                                                        <br><a href="1.6.4-6.4.14.763/fml-1.6.4-6.4.14.763-installer.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.14.763/fml-1.6.4-6.4.14.763-src.zip">
+                                                    <i class="fa download-classifier classifier-src"></i> Src
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.14.763/fml-1.6.4-6.4.14.763-src.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> b0ee35814c167bd0e0ce343542f57c98<br>
+                                                    <strong>SHA1:</strong> 0334e9b7befc06655be99e6b4a09f5a3c385f1f0
+                                                        <br><a href="1.6.4-6.4.14.763/fml-1.6.4-6.4.14.763-src.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.14.763/fml-1.6.4-6.4.14.763-universal.jar">
+                                                    <i class="fa download-classifier classifier-universal"></i> Universal
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.14.763/fml-1.6.4-6.4.14.763-universal.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> 32e9fe533b51b6932b2cf2831bc27c3c<br>
+                                                    <strong>SHA1:</strong> cf980823b1d87a6a5315c8a5f2fbec3b180fc3dc
+                                                        <br><a href="1.6.4-6.4.14.763/fml-1.6.4-6.4.14.763-universal.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                </ul>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td class="download-version">
+                                6.4.2.754
+                            </td>
+                            <td class="download-time">09/27/14 02:37 AM</td>
+                            <td class="download-files">
+                                <ul class="download-links">
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.2.754/fml-1.6.4-6.4.2.754-installer.jar">
+                                                    <i class="fa download-classifier classifier-installer"></i> Installer
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.2.754/fml-1.6.4-6.4.2.754-installer.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> 8be07b1da19f42dd0ab6ca27a78517e6<br>
+                                                    <strong>SHA1:</strong> 104a7b964b730ed92e6746410e14dc38af89dc16
+                                                        <br><a href="1.6.4-6.4.2.754/fml-1.6.4-6.4.2.754-installer.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.2.754/fml-1.6.4-6.4.2.754-src.zip">
+                                                    <i class="fa download-classifier classifier-src"></i> Src
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.2.754/fml-1.6.4-6.4.2.754-src.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> 374148de7465d4320cd1528e48de20df<br>
+                                                    <strong>SHA1:</strong> 5ab53a85c4e2c428181fd2bc3f0401d1e8892259
+                                                        <br><a href="1.6.4-6.4.2.754/fml-1.6.4-6.4.2.754-src.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.2.754/fml-1.6.4-6.4.2.754-universal.jar">
+                                                    <i class="fa download-classifier classifier-universal"></i> Universal
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.2.754/fml-1.6.4-6.4.2.754-universal.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> 7cd088bd2bf5da658cee78e4c9f1a273<br>
+                                                    <strong>SHA1:</strong> 44ae47171765fee3c3ad190e5832676802a54deb
+                                                        <br><a href="1.6.4-6.4.2.754/fml-1.6.4-6.4.2.754-universal.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                </ul>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td class="download-version">
+                                6.4.17.766
+                            </td>
+                            <td class="download-time">09/27/14 02:37 AM</td>
+                            <td class="download-files">
+                                <ul class="download-links">
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.17.766/fml-1.6.4-6.4.17.766-installer.jar">
+                                                    <i class="fa download-classifier classifier-installer"></i> Installer
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.17.766/fml-1.6.4-6.4.17.766-installer.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> 584d3c0e2074b1825caf79a6aec69009<br>
+                                                    <strong>SHA1:</strong> 2d4bfabed5d6c70a75e615bfa6482fe7d1d932bd
+                                                        <br><a href="1.6.4-6.4.17.766/fml-1.6.4-6.4.17.766-installer.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.17.766/fml-1.6.4-6.4.17.766-src.zip">
+                                                    <i class="fa download-classifier classifier-src"></i> Src
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.17.766/fml-1.6.4-6.4.17.766-src.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> 5754eb0bd1b5ac0ff61a02cf15043080<br>
+                                                    <strong>SHA1:</strong> 02e0ac8e3839338b0aa1497c1c481dc43f680847
+                                                        <br><a href="1.6.4-6.4.17.766/fml-1.6.4-6.4.17.766-src.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.17.766/fml-1.6.4-6.4.17.766-universal.jar">
+                                                    <i class="fa download-classifier classifier-universal"></i> Universal
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.17.766/fml-1.6.4-6.4.17.766-universal.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> b1b4148ebca35ffb0eca9ab85b01e45d<br>
+                                                    <strong>SHA1:</strong> ce7498625c4e4ed781abc9dad95d0344504cbb57
+                                                        <br><a href="1.6.4-6.4.17.766/fml-1.6.4-6.4.17.766-universal.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                </ul>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td class="download-version">
+                                6.4.7.758
+                            </td>
+                            <td class="download-time">09/27/14 02:33 AM</td>
+                            <td class="download-files">
+                                <ul class="download-links">
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.7.758/fml-1.6.4-6.4.7.758-installer.jar">
+                                                    <i class="fa download-classifier classifier-installer"></i> Installer
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.7.758/fml-1.6.4-6.4.7.758-installer.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> cb6acfad1d6b777fb7c2ad4ba0edab7e<br>
+                                                    <strong>SHA1:</strong> ee52f1c3c0eb4bbdadfc882cef3a7e406c592a11
+                                                        <br><a href="1.6.4-6.4.7.758/fml-1.6.4-6.4.7.758-installer.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.7.758/fml-1.6.4-6.4.7.758-src.zip">
+                                                    <i class="fa download-classifier classifier-src"></i> Src
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.7.758/fml-1.6.4-6.4.7.758-src.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> f4f76da4fa3fe6e9062bd5a11fb15ff7<br>
+                                                    <strong>SHA1:</strong> fad4f70a0d1e8ecb7bf922ae2a54a3a13e0c933e
+                                                        <br><a href="1.6.4-6.4.7.758/fml-1.6.4-6.4.7.758-src.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.7.758/fml-1.6.4-6.4.7.758-universal.jar">
+                                                    <i class="fa download-classifier classifier-universal"></i> Universal
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.7.758/fml-1.6.4-6.4.7.758-universal.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> 0556fb9e2f23a6f5fc292fe9329c87ee<br>
+                                                    <strong>SHA1:</strong> 421f04b1ceb062e4dfca01b82790ad24ea2403c9
+                                                        <br><a href="1.6.4-6.4.7.758/fml-1.6.4-6.4.7.758-universal.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                </ul>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td class="download-version">
+                                6.4.23.771
+                            </td>
+                            <td class="download-time">09/27/14 02:36 AM</td>
+                            <td class="download-files">
+                                <ul class="download-links">
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.23.771/fml-1.6.4-6.4.23.771-installer.jar">
+                                                    <i class="fa download-classifier classifier-installer"></i> Installer
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.23.771/fml-1.6.4-6.4.23.771-installer.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> 27c832799c50286fb24f1ed638bacff2<br>
+                                                    <strong>SHA1:</strong> 37509735fbe15630fe953c73abc1fb746e3db419
+                                                        <br><a href="1.6.4-6.4.23.771/fml-1.6.4-6.4.23.771-installer.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.23.771/fml-1.6.4-6.4.23.771-src.zip">
+                                                    <i class="fa download-classifier classifier-src"></i> Src
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.23.771/fml-1.6.4-6.4.23.771-src.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> b4752f53d75085886467a788c2a1cf6e<br>
+                                                    <strong>SHA1:</strong> 751c3b7b7433dd338b97f3422681da0d563749aa
+                                                        <br><a href="1.6.4-6.4.23.771/fml-1.6.4-6.4.23.771-src.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.23.771/fml-1.6.4-6.4.23.771-universal.jar">
+                                                    <i class="fa download-classifier classifier-universal"></i> Universal
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.23.771/fml-1.6.4-6.4.23.771-universal.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> 532531b3ee8bc8bf1d2614b5e101fc8e<br>
+                                                    <strong>SHA1:</strong> 6003ccc35d84ee70ac1ad21c6387eb673600d001
+                                                        <br><a href="1.6.4-6.4.23.771/fml-1.6.4-6.4.23.771-universal.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                </ul>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td class="download-version">
+                                6.4.38.784
+                            </td>
+                            <td class="download-time">09/27/14 02:34 AM</td>
+                            <td class="download-files">
+                                <ul class="download-links">
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.38.784/fml-1.6.4-6.4.38.784-installer.jar">
+                                                    <i class="fa download-classifier classifier-installer"></i> Installer
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.38.784/fml-1.6.4-6.4.38.784-installer.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> 48fb802c2639323853c98442e0f1a3d7<br>
+                                                    <strong>SHA1:</strong> 2ca4b01abd69083ecaedb057f2f8ba957815d84a
+                                                        <br><a href="1.6.4-6.4.38.784/fml-1.6.4-6.4.38.784-installer.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.38.784/fml-1.6.4-6.4.38.784-src.zip">
+                                                    <i class="fa download-classifier classifier-src"></i> Src
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.38.784/fml-1.6.4-6.4.38.784-src.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> 6f032e62b9b85f2aa830e9e779e0f19e<br>
+                                                    <strong>SHA1:</strong> 274f1c55152b0930ae21dd5dee1b7ab6c7fc4343
+                                                        <br><a href="1.6.4-6.4.38.784/fml-1.6.4-6.4.38.784-src.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.38.784/fml-1.6.4-6.4.38.784-universal.jar">
+                                                    <i class="fa download-classifier classifier-universal"></i> Universal
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.38.784/fml-1.6.4-6.4.38.784-universal.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> 4b831201e80e3b9cd9fbbf3e80c00657<br>
+                                                    <strong>SHA1:</strong> f7a42a1873e5515784e8fae8ce17107fce2bb98d
+                                                        <br><a href="1.6.4-6.4.38.784/fml-1.6.4-6.4.38.784-universal.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                </ul>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td class="download-version">
+                                6.4.28.775
+                            </td>
+                            <td class="download-time">09/27/14 02:36 AM</td>
+                            <td class="download-files">
+                                <ul class="download-links">
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.28.775/fml-1.6.4-6.4.28.775-installer.jar">
+                                                    <i class="fa download-classifier classifier-installer"></i> Installer
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.28.775/fml-1.6.4-6.4.28.775-installer.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> f7e907d9a87a4d29d3d17c2da70f70bb<br>
+                                                    <strong>SHA1:</strong> d3205e4790bc2acc391a651d411b994398ae12a1
+                                                        <br><a href="1.6.4-6.4.28.775/fml-1.6.4-6.4.28.775-installer.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.28.775/fml-1.6.4-6.4.28.775-src.zip">
+                                                    <i class="fa download-classifier classifier-src"></i> Src
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.28.775/fml-1.6.4-6.4.28.775-src.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> 1b3ff80709ef426c261c8267ad2469f5<br>
+                                                    <strong>SHA1:</strong> 4fae5d7f27ff64ef2d0b783c10c5c70d687c187f
+                                                        <br><a href="1.6.4-6.4.28.775/fml-1.6.4-6.4.28.775-src.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.28.775/fml-1.6.4-6.4.28.775-universal.jar">
+                                                    <i class="fa download-classifier classifier-universal"></i> Universal
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.28.775/fml-1.6.4-6.4.28.775-universal.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> 2a9e4441ff6c70c7dac84a52ceb08548<br>
+                                                    <strong>SHA1:</strong> f8f3d619c4d29fc12a8f2dfe0370a4747b29b7d7
+                                                        <br><a href="1.6.4-6.4.28.775/fml-1.6.4-6.4.28.775-universal.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                </ul>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td class="download-version">
+                                6.4.16.765
+                            </td>
+                            <td class="download-time">09/27/14 02:38 AM</td>
+                            <td class="download-files">
+                                <ul class="download-links">
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.16.765/fml-1.6.4-6.4.16.765-installer.jar">
+                                                    <i class="fa download-classifier classifier-installer"></i> Installer
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.16.765/fml-1.6.4-6.4.16.765-installer.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> f1ed8b8a921bd7acabf007582544d4d6<br>
+                                                    <strong>SHA1:</strong> 2921431e39f2429ec6edecb08df474d1063c69c6
+                                                        <br><a href="1.6.4-6.4.16.765/fml-1.6.4-6.4.16.765-installer.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.16.765/fml-1.6.4-6.4.16.765-src.zip">
+                                                    <i class="fa download-classifier classifier-src"></i> Src
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.16.765/fml-1.6.4-6.4.16.765-src.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> 2fba11b76741f228044fdb762d6f6c54<br>
+                                                    <strong>SHA1:</strong> ed796d86977558f480bd46cfbb4bdf914a5e70bf
+                                                        <br><a href="1.6.4-6.4.16.765/fml-1.6.4-6.4.16.765-src.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                            <li>
+                                                <a href="https://adfoc.us/serve/sitelinks/?id=271228&amp;url=https://files.minecraftforge.net/maven/net/minecraftforge/fml/1.6.4-6.4.16.765/fml-1.6.4-6.4.16.765-universal.jar">
+                                                    <i class="fa download-classifier classifier-universal"></i> Universal
+                                                </a>&nbsp;
+                                                <a class="info-link" data-toggle="popup" href="1.6.4-6.4.16.765/fml-1.6.4-6.4.16.765-universal.html" title="Direct Download">
+                                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                </a>
+                                                <div class="info-tooltip">
+                                                    <strong>MD5:</strong> 2a4f1947c87c536c951d0a66727846d8<br>
+                                                    <strong>SHA1:</strong> b9153a4d6c43287cc60f6d3d15db10a581a24b35
+                                                        <br><a href="1.6.4-6.4.16.765/fml-1.6.4-6.4.16.765-universal.html">(Direct Download)</a>
+                                                </div>
+                                            </li>
+                                    
+                                </ul>
+                            </td>
+                        </tr>
+                    
+                    </tbody>
+                </table>
+            </div>
+                <div class="promo-container promo-container-framed promo-downloads-bottom">
+                    <div id='cdm-zone-05' class='promo-content'></div>
+                </div>
+        </div>
+    </div>
+        <aside class="sidebar-right">
+            <div class="promo-container promo-container-framed promo-downloads-right">
+                <div id='cdm-zone-02' class='promo-content'></div>
+            </div>
+        </aside>
+</main>
+<div class="wrapper">
+    <footer>
+        Copyright © 2018 by Forge Development LLC &middot; <a href="https://files.minecraftforge.net/maven/manage/static/privacy.html">Privacy Information</a> <br>
+        Layout is designed by and used with permission from PaleoCrafter
+        <div class="theme-switch-wrapper">
+            Enable Dark Theme
+            <label class="theme-switch">
+                <input type="checkbox">
+                <span class="slider round"></span>
+            </label>
+        </div>
+    </footer>
+</div>
+<script type="text/javascript" src="../../../../../ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../../use.fontawesome.com/a1f20be65b.js"></script>
+<script type="text/javascript" src="../../../../../cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"></script>
+<script type="text/javascript" src="../../../../../cdnjs.cloudflare.com/ajax/libs/jScrollPane/2.0.23/script/jquery.jscrollpane.min.js"></script>
+<script type="text/javascript" src="../../../../../cdnjs.cloudflare.com/ajax/libs/stickyfill/1.1.4/stickyfill.min.js"></script>
+<script type="text/javascript" src="../../../../../cdnjs.cloudflare.com/ajax/libs/tooltipster/3.3.0/js/jquery.tooltipster.min.js"></script>
+    <script type="text/javascript" src="../../../manage/static/js/merged-curse2e72.js?1549738260.16"></script>
+<script>  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','../../../../../www.google-analytics.com/analytics.js','ga');ga('create', 'UA-31111098-3', 'auto');ga('send', 'pageview');</script>
+        <div id='cdm-zone-end'></div>
+        <!-- Begin comScore -->
+        <script>
+          var _comscore = _comscore || [];
+          _comscore.push({ c1: "2", c2: "6035118" });
+          (function() {
+            var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+            s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+            el.parentNode.insertBefore(s, el);
+          })();
+        </script>
+        <!-- End comScore -->
+        <!-- Nielsen Online SiteCensus -->
+          <div><img src="http://secure-us.imrworldwide.com/cgi-bin/m?ci=us-603339h&amp;cg=0&amp;cc=1&amp;ts=noscript" width="1" height="1" alt="" /></div>
+        <!-- End Nielsen Online SiteCensus -->
+</body>
+
+<!-- Mirrored from files.minecraftforge.net/maven/net/minecraftforge/fml/index_1.6.4.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 30 Sep 2020 09:00:20 GMT -->
+</html>
